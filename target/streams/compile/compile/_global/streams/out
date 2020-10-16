@@ -1,7 +1,19 @@
-[0m[[0m[31merror[0m] [0m[0mE:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala:272:60: not found: value scalEqVect[0m
-[0m[[0m[31merror[0m] [0m[0m            println("Should be => \n4.387482193696061\n\n"+scalEqVect.toString)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0mE:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala:274:61: not found: value scalEqVect[0m
-[0m[[0m[31merror[0m] [0m[0m            println("Should be => \n11.109099873527107\n\n"+scalEqVect.toString)            [0m
-[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\ParticleSimulator.scala:22:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Long[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def /(x$1: ? >: Double(1.0E9)): ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method long2float in object Long of type (x: Long)Float[0m
+[0m[[0m[31merror[0m] [0m[0m and method long2double in object Long of type (x: Long)Double[0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from Long to ?{def /(x$1: ? >: Double(1.0E9)): ?}[0m
+[0m[[0m[31merror[0m] [0m[0m            dT = (time - lastTime)/1e9[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\ParticleSimulator.scala:22:35: overloaded method value / with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Long)Long <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Long <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Long <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Long <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Long[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Double)[0m
+[0m[[0m[31merror[0m] [0m[0m            dT = (time - lastTime)/1e9[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

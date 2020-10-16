@@ -33,3 +33,7 @@ compile
 run
 compile
 run
+compile
+--
+compile
+exit

@@ -8,10 +8,10 @@ class Particle(
         val name: String = "", 
         val radius: Double, 
         val mass: Double, 
-        private var position: Vect = Vect(name+"_position", 0.0, 0.0, 0.0), 
-        private var velocity: Vect = new Vect(name+"_velocity", 0.0, 0.0, 0.0)) {
+        private var position: Vect = new Vect("position", 0.0, 0.0, 0.0), 
+        private var velocity: Vect = new Vect("velocity", 0.0, 0.0, 0.0)) {
 
-    private var acceleration = new Vect(0.0, 0.0, 0.0)
+    private var acceleration = new Vect("", 0.0, 0.0, 0.0)
 
     def distance(ambassador: Particle): Double = 
         {
@@ -41,4 +41,12 @@ class Particle(
     def updateV(dT: Double) = velocity = {velocity + (acceleration * dT)}
 
     def updateP(dT: Double) = position = {position + (velocity * dT)}
+
+    override def toString(acc: Boolean, vel: Boolean, pos: Boolean): String = {
+        val accS = if(acc) "Acceleration ---------- "+acceleration.toString+"\n" else ""
+        val velS = if(vel) "Velocity     ---------- "+velocity.toString+"\n" else ""
+        val posS = if(pos) "Position     ---------- "+position.toString+"\n" else ""
+
+        "Vector: "+name+"\naccS\nvelS\nposS\n\n"
+    }
 }

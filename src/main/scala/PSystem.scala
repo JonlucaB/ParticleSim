@@ -6,16 +6,36 @@ import scala.collection.mutable
 */
 
 class PSystem(val name: String = "") {
-    val particles = new mutable.ListBuffer
+    val particles = new mutable.ListBuffer[Particle]
 
     //adds an arbitrary amount of particles into the system
-    def addParts(ps: Particle*) = for(p <- ps) particles+= p
+    def addParts(ps: Particle*) = for(p <- ps) particles += p
 
     //updates all of the particles
-    //with gravity, need to take the force of gracity on every single particle from the collection of particles,
+    //with gravity, need to take the force of gravity on every single particle from the collection of particles,
     //then add them together into one final GForce vector, then send that to the particles updateA function
     def update(dT: Double) = {
-        particleF = particles
+        for(particle <- particles)
+        {
+            val gForces = particles.map(p => particle.gravF(p))
+            val sumForce = gForces.reduce(_ + _)
+            particle.updateA(sumForce)
+        }
+
+        for(particle <- particles)
+        {
+            particle.updateV(dT)
+            particle.updateP(dT)
+        }
+    }
+
+    def printParticles(acc: Boolean, vel: Boolean, pos: Boolean): Unit = 
+    {
+        println("Printing all particles in system -> "+name)
+        for(particle <- particles)
+        {
+            println(particle.toString(acc, vel, pos))
+        }
     }
 
     //write the data of the particles into the file fileName
