@@ -36,7 +36,6 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newX = x - opX
         val newY = y - opY
         val newZ = z - opZ
-
         return new Vect("("+name+" "+data.name+")", newX, newY, newZ)
     }
 
@@ -45,28 +44,17 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
     //In the case we get a vector, we dot the vector
     //DIAGNOSTIC_LEVEL 3
     def * (data: Double): Vect = {
-        println("Operating on Scalar\n\n")
-
         val newX = x * data
         val newY = y * data
         val newZ = z * data
-
-        println(x * data)
-
         new Vect("("+data+" * "+name+")", newX, newY, newZ)
     }
 
     def * (data: Vect) = {
-        println("Operating on Vector\n\n")
-
-
         val (opX, opY, opZ) = data.getData
         val dotX = x * opX
         val dotY = y * opY
         val dotZ = z * opZ
-
-        println(x * opX)
-
         new Vect("("+data.name+" * "+name+")", dotX, dotY, dotZ)
     }
 
@@ -113,7 +101,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         Math.sqrt(magX + magY + magZ)
     }
 
-    override def toString(): String = name+" = ("+x+", "+y+", "+z+")\n"
+    override def toString(): String = "("+x+", "+y+", "+z+")\n"
     
 }
 

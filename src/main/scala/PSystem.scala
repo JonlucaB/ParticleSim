@@ -6,8 +6,9 @@ import scala.collection.mutable
 */
 
 class PSystem(val name: String = "") {
-    val particles = new mutable.ListBuffer[Particle]
+    val particles = mutable.ListBuffer[Particle]()
 
+    val debug = false
     //adds an arbitrary amount of particles into the system
     def addParts(ps: Particle*) = for(p <- ps) particles += p
 
@@ -17,8 +18,16 @@ class PSystem(val name: String = "") {
     def update(dT: Double) = {
         for(particle <- particles)
         {
-            val gForces = particles.map(p => particle.gravF(p))
+            val gForces: mutable.ListBuffer[Vect] = particles.map[Vect](p => particle.gravF(p))
+            
             val sumForce = gForces.reduce(_ + _)
+            
+            if(debug)
+            {
+                for(gF <- gForces) println(gF.toString)
+                println(sumForce+"\n")
+            }
+            
             particle.updateA(sumForce)
         }
 
