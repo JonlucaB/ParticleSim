@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mE:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala:272:60: not found: value scalEqVect[0m
+[0m[[0m[31merror[0m] [0m[0m            println("Should be => \n4.387482193696061\n\n"+scalEqVect.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala:274:61: not found: value scalEqVect[0m
+[0m[[0m[31merror[0m] [0m[0m            println("Should be => \n11.109099873527107\n\n"+scalEqVect.toString)            [0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

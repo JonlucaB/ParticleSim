@@ -1,0 +1,35 @@
+run\
+run
+compile
+run
+compile
+runb
+run
+        val testVect = new Vect("One")
+        val testVect2 = new Vect("Two", 1.0, 1.0, 1.0)
+        val (x, y, z) = testVect.getData
+        val addVect = testVect + testVect2
+        println("testVect = "+x+" "+y+" "+z+"\n")
+        println(addVect.toString)        val testVect = new Vect("One")
+        val testVect2 = new Vect("Two", 1.0, 1.0, 1.0)
+        val (x, y, z) = testVect.getData
+        val addVect = testVect + testVect2
+        println("testVect = "+x+" "+y+" "+z+"\n")
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run

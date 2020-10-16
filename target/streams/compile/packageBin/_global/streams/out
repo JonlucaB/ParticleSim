@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\particle-simulator_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Particle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\Particle.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ParticleSimulator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\ParticleSimulator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ParticleSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\ParticleSimulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PSystem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\PSystem.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Util$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\Util$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Util.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\Util.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\Vect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\Side Projects\ParticleSim\Particle-Simulator\target\scala-2.13\classes\Vect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

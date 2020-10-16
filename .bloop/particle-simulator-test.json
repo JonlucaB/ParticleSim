@@ -1,0 +1,166 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "particle-simulator-test",
+        "directory": "E:\\Side Projects\\ParticleSim\\Particle-Simulator",
+        "workspaceDir": "E:\\Side Projects\\ParticleSim\\Particle-Simulator",
+        "sources": [
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\src\\test\\scala-2.13",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\src\\test\\scala",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\src\\test\\java",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\target\\scala-2.13\\src_managed\\test"
+        ],
+        "dependencies": [
+            "particle-simulator"
+        ],
+        "classpath": [
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\.bloop\\particle-simulator\\scala-2.13\\classes",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
+        ],
+        "out": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\.bloop\\particle-simulator",
+        "classesDir": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\.bloop\\particle-simulator\\scala-2.13\\test-classes",
+        "resources": [
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\src\\test\\resources",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\target\\scala-2.13\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                
+            ],
+            "jars": [
+                "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.1\\scala-compiler-2.13.1.jar",
+                "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.1\\scala-reflect-2.13.1.jar",
+                "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar",
+                "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
+                "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\1.12\\jansi-1.12.jar"
+            ],
+            "analysis": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\target\\streams\\test\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_261",
+                "options": [
+                    "-Duser.dir=E:\\Side Projects\\ParticleSim\\Particle-Simulator"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
