@@ -25,7 +25,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newY = opY + y
         val newZ = opZ + z
 
-        return new Vect("("+name+" "+data.name+")", newX, newY, newZ)
+        return Vect("("+name+" "+data.name+")", newX, newY, newZ)
     }
 
     //Difference of two Vectors
@@ -36,7 +36,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newX = x - opX
         val newY = y - opY
         val newZ = z - opZ
-        return new Vect("("+name+" "+data.name+")", newX, newY, newZ)
+        return Vect("("+name+" "+data.name+")", newX, newY, newZ)
     }
 
     //Two instances: Either we are given a scalar or a vector with the '*' symbol
@@ -47,7 +47,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newX = x * data
         val newY = y * data
         val newZ = z * data
-        new Vect("("+data+" * "+name+")", newX, newY, newZ)
+        Vect("("+data+" * "+name+")", newX, newY, newZ)
     }
 
     def * (data: Vect) = {
@@ -55,7 +55,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val dotX = x * opX
         val dotY = y * opY
         val dotZ = z * opZ
-        new Vect("("+data.name+" * "+name+")", dotX, dotY, dotZ)
+        Vect("("+data.name+" * "+name+")", dotX, dotY, dotZ)
     }
 
     //Cross product of a vector
@@ -67,7 +67,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newY = (z * opX) - (x * opZ)
         val newZ = (x * opY) - (y * opX)
         
-        new Vect("("+name+" X "+data.name+")", newX, newY, newZ)
+        Vect("("+name+" X "+data.name+")", newX, newY, newZ)
     }
     
     //Division with a scalar
@@ -76,7 +76,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newY = y / data
         val newZ = z / data
 
-        new Vect(name+" / "+data, newX, newY, newZ)
+        Vect(name+" / "+data, newX, newY, newZ)
     }
     
     
@@ -89,7 +89,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         val newY = eqY
         val newZ = eqZ
 
-        new Vect("("+name+")", newX, newY, newZ)
+        Vect("("+name+")", newX, newY, newZ)
     }
     
     //The magnitude of a Vector
@@ -106,6 +106,7 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
 }
 
 object Vect {
+    def apply(name: String, x: Double, y: Double, z: Double) = new Vect("", x, y, z)
 
     val DIAGNOSTIC_LEVEL = 6
 

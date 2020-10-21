@@ -1,6 +1,7 @@
 object ParticleSimulator {
     def main(args: Array[String]): Unit = {
-        val maxIts = 10
+        val maxIts = 100000
+        val maxTime = 5
         //Vect.test
 
         val p1 = new Particle("testP1", 1, 1.0)
@@ -12,10 +13,11 @@ object ParticleSimulator {
         printf(p1.gravF(p2).toString())
 
         var time = System.nanoTime()
+        val startTime = time
         var lastTime = -1L
         var its = 0
 
-        while(its <= maxIts)
+        while((time - startTime)/1e9 < maxTime)
         {
             time = System.nanoTime()
             if(lastTime > 0)
@@ -25,7 +27,7 @@ object ParticleSimulator {
 
             }
 
-            testSystem.printParticles(false, false, true)
+            if(time % (2 * 314) == 0) testSystem.printParticles(false, false, true)
             
             lastTime = time
             its += 1

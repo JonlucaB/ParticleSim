@@ -19,9 +19,9 @@ class PSystem(val name: String = "") {
         for(particle <- particles)
         {
             val gForces: mutable.ListBuffer[Vect] = particles.map[Vect](p => particle.gravF(p))
-            
-            val sumForce = gForces.reduce(_ + _)
-            
+        
+            val sumForce: Vect = gForces.reduce(_ + _)
+
             if(debug)
             {
                 for(gF <- gForces) println(gF.toString)

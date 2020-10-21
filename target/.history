@@ -66,3 +66,57 @@ run
 compile
 run
 exit
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+last Compile / bgRun
+run
+run last compile / bgRun
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+java -Xmx2g ParticleSim
+java -Xmx2g ParticleSim;
+java -Xmx2g ParticleSimulator
+java -Xmx2g ParticleSimulator;
+-XX:+HeapDumpOnOutOfMemoryError
+run
+compile
+run
+compile
+run
+compile
+run
+last compile / bgRun
+run last compile / bgRun
+compile
+run last compile / bgRun
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run

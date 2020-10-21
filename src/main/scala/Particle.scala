@@ -12,7 +12,7 @@ class Particle(
         private var velocity: Vect = new Vect("velocity", 0.0, 0.0, 0.0)) {
     
     val debug = false
-    private var acceleration = new Vect("", 0.0, 0.0, 0.0)
+    private var acceleration = new Vect("Acceleration", 0.0, 0.0, 0.0)
 
     def distance(ambassador: Particle): Double = 
         {
@@ -21,12 +21,16 @@ class Particle(
         }
 
 
+
     //returns the force of gravity between this particle and another (ambassador) as a vector
     //usees the function Fg = [G(m1 * m2) / |d|^3] * d such that d is the distance vector
+
+    
     def gravF(ambassador: Particle): Vect = 
     {
-        val distVect = ambassador.position - position
+        if(ambassador == this) return new Vect("", 0.0, 0.0, 0.0)
 
+        val distVect = ambassador.position - position
         
         val d = {
             val temp = distVect.mag
