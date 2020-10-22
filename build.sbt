@@ -26,6 +26,11 @@ version := "1.0"
 // You can define other libraries as dependencies in your build like this:
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
+// https://mvnrepository.com/artifact/org.scala-lang.modules/scala-xml_2.12
+//libraryDependencies += "org.scala-lang.modules" % "scala-xml_2.12" % "1.0.6"
+// https://mvnrepository.com/artifact/org.scala-lang.modules/scala-xml
+libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "2.0.0-M2"
+
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies

@@ -5,9 +5,9 @@ The purpose of this class is to provide a model for a 3D vector with mathematica
 It consists of Double, and has Polymorphic functions. The particle system relies heavily on 
 the functionality of the 3D Vector class
 */
+import scala.xml._
 
-
-class Vect (val name : String = "", private var x: Double = 0.0, private var y: Double = 0.0, private var z: Double = 0.0)
+class Vect (val name : String = "", private var x: Double = 0.0, private var y: Double = 0.0, private var z: Double = 0.0) extends Serializable
 {
     
     //Provides the three dimensional data for a Vector
@@ -102,11 +102,18 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
     }
 
     override def toString(): String = "("+x+", "+y+", "+z+")\n"
+
+    def toXML: scala.xml.Node = <vect nm={name} xComp={x.toString} yComp={y.toString} zComp={z.toString}/>
     
 }
 
 object Vect {
     def apply(name: String, x: Double, y: Double, z: Double) = new Vect("", x, y, z)
+
+    def apply(node: scala.xml.Node): Vect = {
+        val nm = (node \ "@nm").text
+        new Vect(nm, (node \ "@xComp").text.toDouble, (node \ "@yComp").text.toDouble, (node \ "@zComp").text.toDouble)
+    }
 
     val DIAGNOSTIC_LEVEL = 6
 

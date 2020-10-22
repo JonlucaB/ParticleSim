@@ -1,16 +1,17 @@
 import scala.collection.mutable
 /*
-    The purpose of the PSystem (Particle System) class is to provide the proper implementation
+    The purpose of the PGravSystem (Particle System) class is to provide the proper implementation
     of a class that can simulate a particle environment that we can put force, or 'kicks', into
     and see how these forces affect particles in real time
 */
 
-class PSystem(val name: String = "") {
+class PGravSystem(val name: String = "")  extends System {
     val particles = mutable.ListBuffer[Particle]()
 
     val debug = false
     //adds an arbitrary amount of particles into the system
     def addParts(ps: Particle*) = for(p <- ps) particles += p
+    def addParts(ps: mutable.ListBuffer[Particle]) = for(p <- ps) particles += p
 
     //updates all of the particles
     //with gravity, need to take the force of gravity on every single particle from the collection of particles,
@@ -45,10 +46,5 @@ class PSystem(val name: String = "") {
         {
             println(particle.toString(acc, vel, pos))
         }
-    }
-
-    //write the data of the particles into the file fileName
-    def getParticles(fileName: String) = {
-        ???
     }
 }

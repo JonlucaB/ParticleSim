@@ -3,16 +3,17 @@
     assign a velocity, position, radius, and mass to, and from which we can simulate acceleration,
     collisions, and other functionalities. 
 */
+import scala.xml.XML._
 
 class Particle(
         val name: String = "", 
         val radius: Double, 
-        val mass: Double, 
-        private var position: Vect = new Vect("position", 0.0, 0.0, 0.0), 
-        private var velocity: Vect = new Vect("velocity", 0.0, 0.0, 0.0)) {
+        val mass: Double,
+        private var acceleration: Vect = new Vect("acceleration", 0.0, 0.0, 0.0), 
+        private var velocity: Vect = new Vect("velocity", 0.0, 0.0, 0.0),
+        private var position: Vect = new Vect("position", 0.0, 0.0, 0.0)) { 
     
     val debug = false
-    private var acceleration = new Vect("Acceleration", 0.0, 0.0, 0.0)
 
     def distance(ambassador: Particle): Double = 
         {
@@ -62,5 +63,26 @@ class Particle(
         val posS = if(pos) "Position     ---------- "+position.toString+"\n" else ""
 
         "Vector: "+name+"\n+"+accS+"\n"+velS+"\n"+posS+"\n\n"
+    }
+
+    def toXML: scala.xml.Node = {
+        <particle nme={name.toString} rad={radius.toString} m={mass.toString}>
+            {acceleration.toXML}
+            {velocity.toXML}
+            {position.toXML}
+        </particle>
+    }
+}
+
+
+object Particle {
+    def apply(node: scala.xml.Node): Particle = {
+        val name = (node \ "@nm").text
+        val radius = (node \ "@rad").text.toDouble
+        val mass = (node \ "@m").text.toDouble
+
+        val vects = (node \\ "vect").map(n => Vect(n))
+
+        new Particle(name, radius, mass, vects(0), vects(1), vects(2))
     }
 }
