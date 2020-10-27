@@ -15,6 +15,7 @@
         ],
         "classpath": [
             "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1.jar",
+            "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.0.0-M2\\scala-xml_2.13-2.0.0-M2.jar",
             "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
         ],
         "out": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\.bloop\\particle-simulator",
@@ -119,6 +120,23 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.1\\scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "2.0.0-M2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.0.0-M2\\scala-xml_2.13-2.0.0-M2.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "E:\\Side Projects\\ParticleSim\\Particle-Simulator\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.0.0-M2\\scala-xml_2.13-2.0.0-M2-sources.jar"
                         }
                     ]
                 },

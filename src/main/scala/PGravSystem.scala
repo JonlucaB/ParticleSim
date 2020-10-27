@@ -5,14 +5,7 @@ import scala.collection.mutable
     and see how these forces affect particles in real time
 */
 
-class PGravSystem(val name: String = "")  extends System {
-    val particles = mutable.ListBuffer[Particle]()
-
-    val debug = false
-    //adds an arbitrary amount of particles into the system
-    def addParts(ps: Particle*) = for(p <- ps) particles += p
-    def addParts(ps: mutable.ListBuffer[Particle]) = for(p <- ps) particles += p
-
+class PGravSystem(name: String) extends PSystem {
     //updates all of the particles
     //with gravity, need to take the force of gravity on every single particle from the collection of particles,
     //then add them together into one final GForce vector, then send that to the particles updateA function
@@ -39,12 +32,5 @@ class PGravSystem(val name: String = "")  extends System {
         }
     }
 
-    def printParticles(acc: Boolean, vel: Boolean, pos: Boolean): Unit = 
-    {
-        println("Printing all particles in system -> "+name)
-        for(particle <- particles)
-        {
-            println(particle.toString(acc, vel, pos))
-        }
-    }
+    def draw: Unit = ???
 }
