@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[particle-simulator-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[particle-simulator-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'particle-simulator-build' to 'E:\Side Projects\ParticleSim\Particle-Simulator\project\.bloop\particle-simulator-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\particle-simulator-build.json[0m
+[debug] [particle-simulator-build] Classpath dependencies List()
+[debug] [particle-simulator-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'particle-simulator-build' to 'E:\Side Projects\ParticleSim\Particle-Simulator\project\.bloop\particle-simulator-build.json'
+[success] Generated .bloop\particle-simulator-build.json

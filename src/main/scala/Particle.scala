@@ -4,6 +4,7 @@
     collisions, and other functionalities. 
 */
 import scala.xml.XML._
+import scalafx.scene.paint.Color
 
 class Particle(
         val name: String = "", 
@@ -12,7 +13,9 @@ class Particle(
         private var acceleration: Vect = new Vect("acceleration", 0.0, 0.0, 0.0), 
         private var velocity: Vect = new Vect("velocity", 0.0, 0.0, 0.0),
         private var position: Vect = new Vect("position", 0.0, 0.0, 0.0)) { 
-    
+
+    val color = Color.color(Math.random(), Math.random(), Math.random());
+
     val debug = false
 
     def distance(ambassador: Particle): Double = 
@@ -72,6 +75,8 @@ class Particle(
             {position.toXML}
         </particle>
     }
+
+    def toDrawParticle: drawParticle = drawParticle(radius, color, position)
 }
 
 

@@ -1426,3 +1426,1159 @@ java.nio.file.FileSystemException: E:\Side Projects\ParticleSim\Particle-Simulat
 	at java.lang.Thread.run(null)
 
 2020.10.26 18:31:41 INFO  time: compiled particle-simulator in 5.95s
+2020.11.04 10:27:30 INFO  started: Metals version 0.9.4 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator' for client vscode.
+2020.11.04 10:27:31 INFO  time: initialize in 0.59s
+2020.11.04 10:27:35 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23817'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.11.04 10:27:38 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 10:27:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\System.scala
+2020.11.04 10:27:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.11.04 10:27:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.11.04 10:27:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.11.04 10:27:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.11.04 10:27:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop'...
+[0m[32m[D][0m Loading project from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator-test.json'
+[0m[32m[D][0m Loading project from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'particle-simulator', 'particle-simulator-test'
+[0m[32m[D][0m Missing analysis file for project 'particle-simulator-test'
+[0m[32m[D][0m Loading previous analysis for 'particle-simulator' from 'E:\Side Projects\ParticleSim\Particle-Simulator\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23817...
+The server is listening for incoming connections at tcp://127.0.0.1:23817...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21232'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21232...
+The server is listening for incoming connections at tcp://127.0.0.1:21232...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:27:47 INFO  time: connected to build server in 11s
+2020.11.04 10:27:47 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:27:47 INFO  time: imported build in 0.1s
+2020.11.04 10:27:49 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:27:54 INFO  time: indexed workspace in 6.85s
+2020.11.04 10:28:52 INFO  compiling particle-simulator (3 scala sources)
+2020.11.04 10:28:56 WARN  there were two deprecation warnings (since 2.13.0); re-run with -deprecation for details
+2020.11.04 10:28:56 WARN  unexpected error processing the file E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-1iGNARXQRBGLsbyTBssKKg==\META-INF\semanticdb\src\main\scala\PGravSystem.scala.semanticdb
+java.nio.file.FileSystemException: E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-1iGNARXQRBGLsbyTBssKKg==\META-INF\semanticdb\src\main\scala\PGravSystem.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.readAllBytes(null)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.11.04 10:28:56 INFO  time: compiled particle-simulator in 4.59s
+Nov 04, 2020 10:30:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": "conflictResolution:/e%3A/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/System.scala?%7B%22scheme%22%3A%22file%22%2C%22query%22%3A%22%22%7D"
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "conflictResolution" not installed
+	at java.nio.file.Paths.get(Unknown Source)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:445)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:442)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:837)
+	... 16 more
+
+2020.11.04 10:30:42 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:30:44 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.11.04 10:30:44 INFO  time: compiled particle-simulator in 1.51s
+2020.11.04 10:39:00 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:39:00 INFO  time: compiled particle-simulator in 0.98s
+2020.11.04 10:39:26 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:39:26 INFO  time: compiled particle-simulator in 0.94s
+2020.11.04 10:43:33 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:43:33 INFO  time: compiled particle-simulator in 0.28s
+Nov 04, 2020 10:46:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+Nov 04, 2020 10:46:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+Nov 04, 2020 10:46:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 202
+Nov 04, 2020 10:49:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 730
+2020.11.04 10:49:47 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:49:47 INFO  time: compiled particle-simulator in 0.27s
+2020.11.04 10:50:17 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:50:17 INFO  time: compiled particle-simulator in 0.26s
+2020.11.04 10:51:07 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals8130931935198948987\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 10:51:11 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 10:51:11 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 10:51:13 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 10:51:13 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 10:51:16 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 10:51:16 INFO  [success] Total time: 3 s, completed Nov 4, 2020 10:51:16 AM
+2020.11.04 10:51:18 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 10:51:18 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 10:51:19 INFO  [warn] 
+2020.11.04 10:51:19 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.11.04 10:51:19 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 10:51:19 INFO  [error]   Not found
+2020.11.04 10:51:19 INFO  [error]   Not found
+2020.11.04 10:51:19 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 10:51:19 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 10:51:19 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+2020.11.04 10:51:19 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+2020.11.04 10:51:19 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.11.04 10:51:19 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.11.04 10:51:19 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+2020.11.04 10:51:19 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.11.04 10:51:19 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.11.04 10:51:19 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 10:51:19 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.11.04 10:51:19 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 10:51:19 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.11.04 10:51:19 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.11.04 10:51:19 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.11.04 10:51:19 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 10:51:19 INFO  [error]   Not found
+2020.11.04 10:51:19 INFO  [error]   Not found
+2020.11.04 10:51:19 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 10:51:19 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 10:51:19 INFO  [error] Total time: 1 s, completed Nov 4, 2020 10:51:19 AM
+2020.11.04 10:51:19 INFO  time: ran 'sbt bloopInstall' in 11s
+2020.11.04 10:51:19 INFO  build tool exit: 1
+2020.11.04 10:51:19 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals8130931935198948987\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.11.04 10:51:19 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.11.04 10:51:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:51:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:51:20 INFO  time: connected to build server in 1.07s
+2020.11.04 10:51:20 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:51:21 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:51:21 INFO  time: indexed workspace in 1.07s
+2020.11.04 10:51:21 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:51:21 INFO  time: compiled particle-simulator in 0.27s
+2020.11.04 10:51:26 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:51:26 INFO  time: compiled particle-simulator in 0.25s
+2020.11.04 10:51:55 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:51:55 INFO  time: compiled particle-simulator in 0.25s
+2020.11.04 10:51:57 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:51:57 INFO  time: compiled particle-simulator in 0.28s
+2020.11.04 10:52:16 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:52:16 INFO  time: compiled particle-simulator in 0.25s
+2020.11.04 10:52:29 INFO  shutting down Metals
+2020.11.04 10:52:41 INFO  started: Metals version 0.9.4 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator' for client vscode.
+2020.11.04 10:52:42 INFO  time: initialize in 0.36s
+2020.11.04 10:52:42 INFO  skipping build import with status 'Failed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44233'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44233...
+The server is listening for incoming connections at tcp://127.0.0.1:44233...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:52:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32099'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32099...
+The server is listening for incoming connections at tcp://127.0.0.1:32099...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:52:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:52:43 INFO  time: connected to build server in 1.16s
+2020.11.04 10:52:43 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:52:44 INFO  no build target: using presentation compiler with only scala-library
+2020.11.04 10:52:45 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:52:45 INFO  time: indexed workspace in 2.08s
+2020.11.04 10:52:45 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:52:45 INFO  time: compiled particle-simulator in 0.45s
+2020.11.04 10:52:45 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:52:47 INFO  time: compiled particle-simulator in 0.72s
+Nov 04, 2020 10:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Nov 04, 2020 10:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Nov 04, 2020 10:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Nov 04, 2020 10:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Nov 04, 2020 10:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Nov 04, 2020 10:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Nov 04, 2020 10:53:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+2020.11.04 10:53:34 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:53:34 INFO  time: compiled particle-simulator in 0.15s
+2020.11.04 10:53:45 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:53:45 INFO  time: compiled particle-simulator in 0.28s
+2020.11.04 10:54:49 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:54:49 INFO  time: compiled particle-simulator in 0.14s
+2020.11.04 10:55:51 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:55:51 INFO  time: compiled particle-simulator in 0.29s
+2020.11.04 10:55:56 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:55:56 INFO  time: compiled particle-simulator in 0.13s
+2020.11.04 10:56:03 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:56:03 INFO  time: compiled particle-simulator in 0.26s
+2020.11.04 10:56:43 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:56:43 INFO  time: compiled particle-simulator in 0.27s
+2020.11.04 10:57:32 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:57:32 INFO  time: compiled particle-simulator in 0.23s
+2020.11.04 10:57:55 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:57:55 INFO  time: compiled particle-simulator in 0.24s
+2020.11.04 10:57:56 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24472'...
+Waiting for the bsp connection to come up...
+Nov 04, 2020 10:57:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.concurrent.ExecutionException: Boxed InterruptedException
+java.util.concurrent.CompletionException: java.util.concurrent.ExecutionException: Boxed InterruptedException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.util.concurrent.ExecutionException: Boxed InterruptedException
+	at scala.concurrent.impl.Promise$.resolver(Promise.scala:86)
+	at scala.concurrent.impl.Promise$.scala$concurrent$impl$Promise$$resolveTry(Promise.scala:79)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:284)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:100)
+	at scala.concurrent.java8.FuturesConvertersImpl$P.accept(FutureConvertersImpl.scala:97)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$3(BuildServerConnection.scala:202)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:202)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:146)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:81)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:75)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+Caused by: java.lang.InterruptedException
+	... 21 more
+
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24472...
+The server is listening for incoming connections at tcp://127.0.0.1:24472...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:57:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30753'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30753...
+The server is listening for incoming connections at tcp://127.0.0.1:30753...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25234'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25234...
+The server is listening for incoming connections at tcp://127.0.0.1:25234...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24141'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24141...
+The server is listening for incoming connections at tcp://127.0.0.1:24141...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:57:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:57:57 INFO  time: connected to build server in 0.82s
+2020.11.04 10:57:57 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:57:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43618'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43618...
+The server is listening for incoming connections at tcp://127.0.0.1:43618...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:57:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12518'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12518...
+The server is listening for incoming connections at tcp://127.0.0.1:12518...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:57:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:57:57 INFO  time: connected to build server in 1.22s
+2020.11.04 10:57:57 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:57:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:57:58 INFO  time: connected to build server in 1.16s
+2020.11.04 10:57:58 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:57:58 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14322'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14322...
+The server is listening for incoming connections at tcp://127.0.0.1:14322...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:57:58 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:57:58 INFO  time: indexed workspace in 1.39s
+2020.11.04 10:57:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26167'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26167...
+The server is listening for incoming connections at tcp://127.0.0.1:26167...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:57:59 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:57:59 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:57:59 INFO  time: indexed workspace in 1.39s
+2020.11.04 10:57:59 INFO  time: indexed workspace in 1.31s
+2020.11.04 10:58:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:58:00 INFO  time: connected to build server in 1.16s
+2020.11.04 10:58:00 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:58:01 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:58:01 INFO  time: indexed workspace in 1.06s
+2020.11.04 10:58:01 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:58:01 INFO  time: compiled particle-simulator in 0.28s
+2020.11.04 10:58:18 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals8065073194100087252\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 10:58:22 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 10:58:22 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 10:58:24 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 10:58:24 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 10:58:26 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 10:58:26 INFO  [success] Total time: 2 s, completed Nov 4, 2020 10:58:26 AM
+2020.11.04 10:58:26 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 10:58:26 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 10:58:27 INFO  [warn] 
+2020.11.04 10:58:27 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.11.04 10:58:27 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 10:58:27 INFO  [error]   Not found
+2020.11.04 10:58:27 INFO  [error]   Not found
+2020.11.04 10:58:27 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 10:58:27 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 10:58:27 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+2020.11.04 10:58:27 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+2020.11.04 10:58:27 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.11.04 10:58:27 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.11.04 10:58:27 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+2020.11.04 10:58:27 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.11.04 10:58:27 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.11.04 10:58:27 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 10:58:27 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.11.04 10:58:27 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 10:58:27 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.11.04 10:58:27 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.11.04 10:58:27 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.11.04 10:58:27 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 10:58:27 INFO  [error]   Not found
+2020.11.04 10:58:27 INFO  [error]   Not found
+2020.11.04 10:58:27 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 10:58:27 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 10:58:27 INFO  [error] Total time: 0 s, completed Nov 4, 2020 10:58:27 AM
+2020.11.04 10:58:27 INFO  build tool exit: 1
+2020.11.04 10:58:27 INFO  time: ran 'sbt bloopInstall' in 8.81s
+2020.11.04 10:58:27 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals8065073194100087252\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.11.04 10:58:27 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22272'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22272...
+The server is listening for incoming connections at tcp://127.0.0.1:22272...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:58:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16419'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16419...
+The server is listening for incoming connections at tcp://127.0.0.1:16419...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 10:58:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 10:58:28 INFO  time: connected to build server in 1.24s
+2020.11.04 10:58:28 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 10:58:29 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 10:58:29 INFO  time: indexed workspace in 1.11s
+2020.11.04 10:58:30 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 10:58:30 INFO  time: compiled particle-simulator in 0.35s
+2020.11.04 11:00:35 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:00:35 INFO  time: compiled particle-simulator in 0.26s
+Nov 04, 2020 11:00:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.11.04 11:00:58 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals2082180040798700571\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 11:01:01 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 11:01:01 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 11:01:03 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 11:01:03 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 11:01:05 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 11:01:05 INFO  [success] Total time: 2 s, completed Nov 4, 2020 11:01:05 AM
+2020.11.04 11:01:05 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 11:01:05 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 11:01:06 INFO  [warn] 
+2020.11.04 11:01:06 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.11.04 11:01:06 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:01:06 INFO  [error]   Not found
+2020.11.04 11:01:06 INFO  [error]   Not found
+2020.11.04 11:01:06 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:01:06 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:01:06 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+2020.11.04 11:01:06 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+2020.11.04 11:01:06 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.11.04 11:01:06 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.11.04 11:01:06 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+2020.11.04 11:01:06 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.11.04 11:01:06 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.11.04 11:01:06 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:01:06 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.11.04 11:01:06 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:01:06 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.11.04 11:01:06 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.11.04 11:01:06 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.11.04 11:01:06 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:01:06 INFO  [error]   Not found
+2020.11.04 11:01:06 INFO  [error]   Not found
+2020.11.04 11:01:06 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:01:06 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:01:06 INFO  [error] Total time: 0 s, completed Nov 4, 2020 11:01:06 AM
+2020.11.04 11:01:06 INFO  build tool exit: 1
+2020.11.04 11:01:06 INFO  time: ran 'sbt bloopInstall' in 8.62s
+2020.11.04 11:01:06 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals2082180040798700571\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.11.04 11:01:06 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39883'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39883...
+The server is listening for incoming connections at tcp://127.0.0.1:39883...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:01:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15875'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15875...
+The server is listening for incoming connections at tcp://127.0.0.1:15875...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:01:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 11:01:06 INFO  time: connected to build server in 0.86s
+2020.11.04 11:01:06 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 11:01:08 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 11:01:08 INFO  time: indexed workspace in 1.16s
+2020.11.04 11:01:09 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:01:09 INFO  time: compiled particle-simulator in 0.27s
+2020.11.04 11:01:25 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals1948083810138498359\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 11:01:29 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 11:01:29 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 11:01:30 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 11:01:30 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 11:01:32 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 11:01:32 INFO  [success] Total time: 2 s, completed Nov 4, 2020 11:01:32 AM
+2020.11.04 11:01:32 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 11:01:32 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 11:01:34 INFO  [warn] 
+2020.11.04 11:01:34 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.11.04 11:01:34 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:01:34 INFO  [error]   Not found
+2020.11.04 11:01:34 INFO  [error]   Not found
+2020.11.04 11:01:34 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:01:34 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:01:34 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+2020.11.04 11:01:34 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+2020.11.04 11:01:34 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.11.04 11:01:34 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.11.04 11:01:34 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+2020.11.04 11:01:34 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.11.04 11:01:34 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.11.04 11:01:34 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:01:34 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.11.04 11:01:34 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:01:34 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.11.04 11:01:34 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.11.04 11:01:34 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.11.04 11:01:34 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:01:34 INFO  [error]   Not found
+2020.11.04 11:01:34 INFO  [error]   Not found
+2020.11.04 11:01:34 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:01:34 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:01:34 INFO  [error] Total time: 0 s, completed Nov 4, 2020 11:01:34 AM
+2020.11.04 11:01:34 INFO  build tool exit: 1
+2020.11.04 11:01:34 INFO  time: ran 'sbt bloopInstall' in 8.76s
+2020.11.04 11:01:34 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals1948083810138498359\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.11.04 11:01:34 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25386'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25386...
+The server is listening for incoming connections at tcp://127.0.0.1:25386...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:01:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14676'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14676...
+The server is listening for incoming connections at tcp://127.0.0.1:14676...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:01:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 11:01:34 INFO  time: connected to build server in 0.8s
+2020.11.04 11:01:34 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 11:01:35 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 11:01:35 INFO  time: indexed workspace in 1.01s
+2020.11.04 11:01:36 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:01:36 INFO  time: compiled particle-simulator in 0.33s
+2020.11.04 11:03:11 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals2181108477219694343\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 11:03:14 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 11:03:14 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 11:03:16 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 11:03:16 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 11:03:18 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 11:03:18 INFO  [success] Total time: 2 s, completed Nov 4, 2020 11:03:18 AM
+2020.11.04 11:03:20 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 11:03:20 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 11:03:20 INFO  [warn] 
+2020.11.04 11:03:20 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.11.04 11:03:20 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:03:20 INFO  [error]   Not found
+2020.11.04 11:03:20 INFO  [error]   Not found
+2020.11.04 11:03:20 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:03:20 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:03:20 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+2020.11.04 11:03:20 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+2020.11.04 11:03:20 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.11.04 11:03:20 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.11.04 11:03:20 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+2020.11.04 11:03:20 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.11.04 11:03:20 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.11.04 11:03:20 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:03:20 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.11.04 11:03:20 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:03:20 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.11.04 11:03:20 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.11.04 11:03:20 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.11.04 11:03:21 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:03:21 INFO  [error]   Not found
+2020.11.04 11:03:21 INFO  [error]   Not found
+2020.11.04 11:03:21 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:03:21 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:03:21 INFO  [error] Total time: 1 s, completed Nov 4, 2020 11:03:21 AM
+2020.11.04 11:03:21 INFO  build tool exit: 1
+2020.11.04 11:03:21 INFO  time: ran 'sbt bloopInstall' in 10s
+2020.11.04 11:03:21 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals2181108477219694343\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.11.04 11:03:21 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17405'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17405...
+The server is listening for incoming connections at tcp://127.0.0.1:17405...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:03:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22743'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22743...
+The server is listening for incoming connections at tcp://127.0.0.1:22743...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:03:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 11:03:22 INFO  time: connected to build server in 0.76s
+2020.11.04 11:03:21 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 11:03:23 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 11:03:23 INFO  time: indexed workspace in 1.11s
+2020.11.04 11:03:23 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:03:23 INFO  time: compiled particle-simulator in 0.5s
+2020.11.04 11:03:23 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:03:24 INFO  time: compiled particle-simulator in 0.29s
+2020.11.04 11:05:26 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:05:26 INFO  time: compiled particle-simulator in 0.28s
+2020.11.04 11:10:38 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:10:38 INFO  time: compiled particle-simulator in 30ms
+2020.11.04 11:10:39 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals4176611260432136586\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 11:10:43 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 11:10:43 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 11:10:45 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 11:10:45 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 11:10:47 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 11:10:47 INFO  [success] Total time: 2 s, completed Nov 4, 2020 11:10:47 AM
+2020.11.04 11:10:47 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 11:10:47 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 11:10:48 INFO  [warn] 
+2020.11.04 11:10:48 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.11.04 11:10:48 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:10:48 INFO  [error]   Not found
+2020.11.04 11:10:48 INFO  [error]   Not found
+2020.11.04 11:10:48 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:10:48 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:10:48 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+2020.11.04 11:10:48 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+2020.11.04 11:10:48 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.11.04 11:10:48 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.11.04 11:10:48 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2942)
+2020.11.04 11:10:48 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.Execute.work(Execute.scala:289)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.11.04 11:10:48 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.11.04 11:10:48 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:10:48 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.11.04 11:10:48 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.11.04 11:10:48 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.11.04 11:10:48 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.11.04 11:10:48 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.11.04 11:10:48 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalafx:scalafx_2.13:8.0.144-R12
+2020.11.04 11:10:48 INFO  [error]   Not found
+2020.11.04 11:10:48 INFO  [error]   Not found
+2020.11.04 11:10:48 INFO  [error]   not found: C:\Users\Jonluca\.ivy2\local\org.scalafx\scalafx_2.13\8.0.144-R12\ivys\ivy.xml
+2020.11.04 11:10:48 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalafx/scalafx_2.13/8.0.144-R12/scalafx_2.13-8.0.144-R12.pom
+2020.11.04 11:10:48 INFO  [error] Total time: 0 s, completed Nov 4, 2020 11:10:48 AM
+2020.11.04 11:10:48 INFO  build tool exit: 1
+2020.11.04 11:10:48 INFO  time: ran 'sbt bloopInstall' in 8.94s
+2020.11.04 11:10:48 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals4176611260432136586\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.11.04 11:10:48 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21899'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21899...
+The server is listening for incoming connections at tcp://127.0.0.1:21899...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:10:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19885'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19885...
+The server is listening for incoming connections at tcp://127.0.0.1:19885...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:10:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 11:10:49 INFO  time: connected to build server in 0.87s
+2020.11.04 11:10:49 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 11:10:50 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 11:10:50 INFO  time: indexed workspace in 1.11s
+2020.11.04 11:10:50 INFO  compiling particle-simulator (1 scala source)
+2020.11.04 11:10:50 INFO  time: compiled particle-simulator in 0.36s
+2020.11.04 11:10:57 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:10:57 INFO  time: compiled particle-simulator in 0.68s
+2020.11.04 11:10:58 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:10:58 INFO  time: compiled particle-simulator in 0.43s
+Nov 04, 2020 11:11:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 642
+2020.11.04 11:11:45 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Jonluca\AppData\Local\Temp\metals7048382818903644919\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.04 11:11:49 INFO  [info] Loading settings for project particle-simulator-build-build from metals.sbt ...
+2020.11.04 11:11:49 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project\project
+2020.11.04 11:11:51 INFO  [info] Loading settings for project particle-simulator-build from metals.sbt ...
+2020.11.04 11:11:51 INFO  [info] Loading project definition from E:\Side Projects\ParticleSim\Particle-Simulator\project
+2020.11.04 11:11:53 INFO  [success] Generated .bloop\particle-simulator-build.json
+2020.11.04 11:11:53 INFO  [success] Total time: 2 s, completed Nov 4, 2020 11:11:53 AM
+2020.11.04 11:11:55 INFO  [info] Loading settings for project particle-simulator from build.sbt ...
+2020.11.04 11:11:55 INFO  [info] Set current project to Particle Simulator (in build file:/E:/Side%20Projects/ParticleSim/Particle-Simulator/)
+2020.11.04 11:11:58 INFO  [success] Generated .bloop\particle-simulator-test.json
+2020.11.04 11:11:58 INFO  [success] Generated .bloop\particle-simulator.json
+2020.11.04 11:11:58 INFO  [success] Total time: 3 s, completed Nov 4, 2020 11:11:58 AM
+2020.11.04 11:11:58 INFO  build tool exit: 0
+2020.11.04 11:11:58 INFO  time: ran 'sbt bloopInstall' in 13s
+2020.11.04 11:11:58 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16467'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop'...
+[0m[32m[D][0m Loading project from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator.json'
+[0m[32m[D][0m Loading project from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'particle-simulator-test', 'particle-simulator'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16467...
+The server is listening for incoming connections at tcp://127.0.0.1:16467...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:11:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15573'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15573...
+The server is listening for incoming connections at tcp://127.0.0.1:15573...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.04 11:11:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.04 11:11:59 INFO  time: connected to build server in 0.8s
+2020.11.04 11:11:59 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.04 11:12:00 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.04 11:12:00 INFO  time: indexed workspace in 2.15s
+2020.11.04 11:12:02 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:12:02 INFO  time: compiled particle-simulator in 0.95s
+2020.11.04 11:12:04 INFO  skipping build import with status 'Installed'
+Nov 04, 2020 11:13:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 851
+2020.11.04 11:13:36 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:13:36 INFO  time: compiled particle-simulator in 0.55s
+Nov 04, 2020 11:13:51 AM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/System.scala
+java.nio.file.NoSuchFileException: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\System.scala
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:395)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:89)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:73)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:38)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:37)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:161)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:240)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:199)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:50)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:235)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2020.11.04 11:14:07 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:14:07 INFO  time: compiled particle-simulator in 0.33s
+Nov 04, 2020 11:14:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 999
+2020.11.04 11:15:02 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:15:02 INFO  time: compiled particle-simulator in 0.61s
+Nov 04, 2020 11:15:12 AM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/System.scala
+java.nio.file.NoSuchFileException: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\System.scala
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:395)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:89)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:73)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:38)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:37)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:161)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:240)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:199)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$5(HoverProvider.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$3(HoverProvider.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:54)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:235)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Nov 04, 2020 11:15:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1085
+2020.11.04 11:16:17 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:16:17 INFO  time: compiled particle-simulator in 0.56s
+Nov 04, 2020 11:17:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1268
+2020.11.04 11:17:38 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:17:38 INFO  time: compiled particle-simulator in 0.68s
+2020.11.04 11:18:10 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:18:10 INFO  time: compiled particle-simulator in 0.64s
+Nov 04, 2020 11:18:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1563
+2020.11.04 11:18:37 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:18:37 INFO  time: compiled particle-simulator in 0.51s
+2020.11.04 11:18:49 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:18:49 INFO  time: compiled particle-simulator in 0.69s
+2020.11.04 11:20:12 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:20:12 INFO  time: compiled particle-simulator in 0.67s
+2020.11.04 11:20:51 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:20:51 INFO  time: compiled particle-simulator in 0.56s
+2020.11.04 11:20:59 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:20:59 INFO  time: compiled particle-simulator in 0.71s
+2020.11.04 11:21:19 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:21:19 INFO  time: compiled particle-simulator in 0.41s
+2020.11.04 11:21:45 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:21:45 INFO  time: compiled particle-simulator in 0.73s
+Nov 04, 2020 11:21:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1804
+2020.11.04 11:21:52 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:21:52 INFO  time: compiled particle-simulator in 0.59s
+2020.11.04 11:22:14 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:22:14 INFO  time: compiled particle-simulator in 0.62s
+2020.11.04 11:22:25 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:22:25 INFO  time: compiled particle-simulator in 0.63s
+2020.11.04 11:22:51 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:22:51 INFO  time: compiled particle-simulator in 0.53s
+2020.11.04 11:22:56 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:22:56 INFO  time: compiled particle-simulator in 0.59s
+2020.11.04 11:23:15 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:23:15 INFO  time: compiled particle-simulator in 0.64s
+2020.11.04 11:23:17 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:23:17 INFO  time: compiled particle-simulator in 0.61s
+2020.11.04 11:23:29 INFO  compiling particle-simulator (6 scala sources)
+2020.11.04 11:23:29 INFO  time: compiled particle-simulator in 0.66s
+2020.11.04 11:23:44 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:23:44 INFO  time: compiled particle-simulator in 0.61s
+2020.11.04 11:23:45 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:23:45 INFO  time: compiled particle-simulator in 0.63s
+2020.11.04 11:24:09 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:24:09 INFO  time: compiled particle-simulator in 0.15s
+2020.11.04 11:24:25 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:24:25 INFO  time: compiled particle-simulator in 0.18s
+2020.11.04 11:24:38 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:24:38 INFO  time: compiled particle-simulator in 0.14s
+2020.11.04 11:24:59 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:24:59 INFO  time: compiled particle-simulator in 0.6s
+2020.11.04 11:25:05 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\drawEntity.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\drawEntity.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+Nov 04, 2020 11:25:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(Unknown Source)
+	at scala.meta.internal.pc.CompletionProvider.cursorName(CompletionProvider.scala:27)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:51)
+
+2020.11.04 11:25:07 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\drawEntity.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\drawEntity.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:25:07 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\drawEntity.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\drawEntity.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+Nov 04, 2020 11:25:12 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 04, 2020 11:25:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/Particle.scala,line-4,offset=218
+scala.reflect.internal.FatalError: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/Particle.scala,line-4,offset=218
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.11.04 11:25:16 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:25:16 INFO  time: compiled particle-simulator in 0.69s
+2020.11.04 11:25:23 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:25:23 INFO  time: compiled particle-simulator in 0.55s
+2020.11.04 11:25:45 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:25:45 INFO  time: compiled particle-simulator in 0.66s
+2020.11.04 11:25:55 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:25:55 INFO  time: compiled particle-simulator in 0.58s
+2020.11.04 11:26:21 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:21 INFO  time: compiled particle-simulator in 0.58s
+2020.11.04 11:26:34 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:34 INFO  time: compiled particle-simulator in 0.7s
+2020.11.04 11:26:41 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:41 INFO  time: compiled particle-simulator in 0.6s
+2020.11.04 11:26:43 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:43 INFO  time: compiled particle-simulator in 0.7s
+2020.11.04 11:26:45 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:45 INFO  time: compiled particle-simulator in 0.54s
+2020.11.04 11:26:46 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:46 INFO  time: compiled particle-simulator in 0.68s
+2020.11.04 11:26:48 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:48 INFO  time: compiled particle-simulator in 0.61s
+2020.11.04 11:26:51 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:26:51 INFO  time: compiled particle-simulator in 0.63s
+something's wrong: no file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystem.scala in scala.collection.mutable.ListBuffer[Particle]RangePosition(file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystem.scala, 899, 907, 927)
+2020.11.04 11:27:05 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:27:06 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:27:06 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:27:06 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:27:08 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:27:08 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-8b5SNviqTJSecf4c2SdTRg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.04 11:27:12 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:27:12 INFO  time: compiled particle-simulator in 0.42s
+2020.11.04 11:30:42 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:30:42 INFO  time: compiled particle-simulator in 0.64s
+2020.11.04 11:31:22 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:31:22 INFO  time: compiled particle-simulator in 0.65s
+2020.11.04 11:32:00 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:32:00 INFO  time: compiled particle-simulator in 0.76s
+2020.11.04 11:32:57 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:32:57 INFO  time: compiled particle-simulator in 0.64s
+2020.11.04 11:33:01 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:33:01 INFO  time: compiled particle-simulator in 0.63s
+2020.11.04 11:33:08 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:33:08 INFO  time: compiled particle-simulator in 0.64s
+Nov 04, 2020 11:33:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2962
+2020.11.04 11:34:03 INFO  compiling particle-simulator (7 scala sources)
+2020.11.04 11:34:03 INFO  time: compiled particle-simulator in 0.8s
+2020.11.04 11:36:33 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44958'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26689'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18001'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18510'...
+Waiting for the bsp connection to come up...

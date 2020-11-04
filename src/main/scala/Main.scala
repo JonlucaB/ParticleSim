@@ -26,6 +26,6 @@ object Main {
             
         testSystem.run(0, 5, false, true)
 
-        testSystem.documentParticleData("save"+System.nanoTime()+".xml")
+        testSystem.documentParticleData("./Saves/ParticlesAtTimeStamp"+System.nanoTime()+".xml")
     }
 }

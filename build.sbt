@@ -30,6 +30,8 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 //libraryDependencies += "org.scala-lang.modules" % "scala-xml_2.12" % "1.0.6"
 // https://mvnrepository.com/artifact/org.scala-lang.modules/scala-xml
 libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "2.0.0-M2"
+// libraryDependencies += "org.scalafx" %% "scalafx" % "8.0.144-R12"
+libraryDependencies +="org.scalafx" %% "scalafx" % "12.0.2-R18"
 
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
