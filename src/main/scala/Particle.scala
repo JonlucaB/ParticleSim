@@ -20,11 +20,11 @@ class Particle(
 
     def distance(ambassador: Particle): Double = 
         {
-            val dVect = ambassador.position - position
+            val dVect = ambassador.pos - position
             dVect.mag
         }
 
-
+    def pos: Vect = position
 
     //returns the force of gravity between this particle and another (ambassador) as a vector
     //usees the function Fg = [G(m1 * m2) / |d|^3] * d such that d is the distance vector
@@ -34,7 +34,7 @@ class Particle(
     {
         if(ambassador == this) return new Vect("", 0.0, 0.0, 0.0)
 
-        val distVect = ambassador.position - position
+        val distVect = ambassador.pos - position
         
         val d = {
             val temp = distVect.mag
@@ -65,7 +65,7 @@ class Particle(
         val velS = if(vel) "Velocity     ---------- "+velocity.toString+"\n" else ""
         val posS = if(pos) "Position     ---------- "+position.toString+"\n" else ""
 
-        "Vector: "+name+"\n+"+accS+"\n"+velS+"\n"+posS+"\n\n"
+        "Particle: "+name+" | mass = "+mass.toString+" | radius = "+radius.toString+"\n+"+accS+"\n"+velS+"\n"+posS+"\n\n"
     }
 
     def toXML: scala.xml.Node = {

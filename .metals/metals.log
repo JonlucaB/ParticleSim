@@ -2582,3 +2582,560 @@ Waiting for the bsp connection to come up...
 Starting the bsp launcher for bloop...
 Opening a bsp server connection with 'bsp --protocol tcp --port 18510'...
 Waiting for the bsp connection to come up...
+2020.11.18 10:50:29 INFO  Started: Metals version 0.9.5 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator' for client vscode.
+2020.11.18 10:50:30 INFO  time: initialize in 0.81s
+2020.11.18 10:50:30 INFO  Attempting to connect to the build server...
+2020.11.18 10:50:31 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.11.18 10:50:31 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20358'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.11.18 10:50:33 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.5-2-eb51d668...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop'...
+[0m[32m[D][0m Loading project from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator.json'
+[0m[32m[D][0m Loading project from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'particle-simulator-test', 'particle-simulator'
+[0m[32m[D][0m Missing analysis file for project 'particle-simulator-test'
+[0m[32m[D][0m Loading previous analysis for 'particle-simulator' from 'E:\Side Projects\ParticleSim\Particle-Simulator\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20358...
+The server is listening for incoming connections at tcp://127.0.0.1:20358...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.18 10:50:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.18 10:50:51 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43421'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43421...
+The server is listening for incoming connections at tcp://127.0.0.1:43421...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.18 10:50:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.18 10:50:55 INFO  time: connected to build server in 24s
+2020.11.18 10:50:55 INFO  Connected to Build server v1.4.5-2-eb51d668
+2020.11.18 10:50:57 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.18 10:51:09 INFO  time: indexed workspace in 13s
+2020.11.18 10:51:10 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:51:17 INFO  time: compiled particle-simulator in 7.5s
+2020.11.18 10:52:59 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:53:00 INFO  time: compiled particle-simulator in 1.05s
+2020.11.18 10:53:30 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:53:31 INFO  time: compiled particle-simulator in 1.05s
+2020.11.18 10:54:11 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:54:11 INFO  time: compiled particle-simulator in 0.98s
+2020.11.18 10:54:28 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-aAUnYoZ3SX6JaoqMMh9aXg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.18 10:54:28 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-aAUnYoZ3SX6JaoqMMh9aXg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.18 10:54:47 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:54:47 INFO  time: compiled particle-simulator in 0.84s
+2020.11.18 10:55:13 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:55:13 INFO  time: compiled particle-simulator in 0.18s
+2020.11.18 10:55:23 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:55:23 INFO  time: compiled particle-simulator in 0.94s
+2020.11.18 10:55:48 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:55:48 INFO  time: compiled particle-simulator in 0.9s
+2020.11.18 10:57:06 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:57:06 INFO  time: compiled particle-simulator in 0.75s
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:22 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:34 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:57:34 INFO  time: compiled particle-simulator in 0.88s
+2020.11.18 10:57:36 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:57:36 INFO  time: compiled particle-simulator in 0.77s
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:38 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:46 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:57: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                        ^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:72: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                       ^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:35:87: stale bloop error: overloaded method value apply with alternatives:
+  (node: scala.xml.Node)Vect <and>
+  (name: String,x: Double,y: Double,z: Double)Vect
+ cannot be applied to (Int, Int, Int)
+        val testSystem = new PGravSystem("TestSystem1", Vect(0, 0, 0), Vect(0, 0, 1), Vect(0, 1, 0), windowSize)
+                                                                                      ^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:49:27: stale bloop error: 3 more arguments than can be applied to method run: (dT: Double)Array[Array[(Double, scalafx.scene.paint.Color)]]
+        testSystem.run(0, 5, false, true)
+                          ^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:66:45: stale bloop error: value paused is not a member of PGravSystem
+did you mean pause?
+                    else if (check(its) && !testSystem.paused) {
+                                            ^^^^^^^^^^^^^^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:37: stale bloop error: not found: value time
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                    ^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:44: stale bloop error: not found: value startTime
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                           ^^^^^^^^^
+2020.11.18 10:57:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:90:56: stale bloop error: not found: value pausedTimePassed
+            if(useTime) timePass = (time - startTime - pausedTimePassed)/1e9 < maxTime
+                                                       ^^^^^^^^^^^^^^^^
+2020.11.18 10:57:49 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:57:49 INFO  time: compiled particle-simulator in 0.77s
+2020.11.18 10:58:44 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:58:44 INFO  time: compiled particle-simulator in 0.66s
+2020.11.18 10:59:22 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:59:22 INFO  time: compiled particle-simulator in 0.75s
+2020.11.18 10:59:56 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:59:57 INFO  time: compiled particle-simulator in 1.27s
+2020.11.18 10:59:58 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 10:59:58 INFO  time: compiled particle-simulator in 0.78s
+2020.11.18 11:00:28 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:00:28 INFO  time: compiled particle-simulator in 0.78s
+2020.11.18 11:00:44 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:00:44 INFO  time: compiled particle-simulator in 0.85s
+2020.11.18 11:01:14 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:01:14 INFO  time: compiled particle-simulator in 0.86s
+2020.11.18 11:01:24 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:01:24 INFO  time: compiled particle-simulator in 0.83s
+2020.11.18 11:01:31 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:01:31 INFO  time: compiled particle-simulator in 0.68s
+2020.11.18 11:02:35 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:02:35 INFO  time: compiled particle-simulator in 0.77s
+2020.11.18 11:02:48 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:02:48 INFO  time: compiled particle-simulator in 0.67s
+2020.11.18 11:03:07 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:03:07 INFO  time: compiled particle-simulator in 0.71s
+2020.11.18 11:03:24 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:03:24 INFO  time: compiled particle-simulator in 0.67s
+2020.11.18 11:03:26 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:03:27 INFO  time: compiled particle-simulator in 1.05s
+2020.11.18 11:04:21 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:04:21 INFO  time: compiled particle-simulator in 0.71s
+2020.11.18 11:04:23 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:04:23 INFO  time: compiled particle-simulator in 0.75s
+2020.11.18 11:04:25 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:04:25 INFO  time: compiled particle-simulator in 0.91s
+2020.11.18 11:04:38 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:04:39 INFO  time: compiled particle-simulator in 1.15s
+Nov 18, 2020 11:05:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 928
+Nov 18, 2020 11:05:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 930
+2020.11.18 11:05:20 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-aAUnYoZ3SX6JaoqMMh9aXg==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.11.18 11:05:20 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:05:21 INFO  time: compiled particle-simulator in 1.11s
+2020.11.18 11:05:28 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:05:28 INFO  time: compiled particle-simulator in 0.19s
+Nov 18, 2020 11:05:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 965
+Nov 18, 2020 11:05:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 998
+2020.11.18 11:06:01 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:06:02 INFO  time: compiled particle-simulator in 1.08s
+2020.11.18 11:06:02 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:06:04 INFO  time: compiled particle-simulator in 1.1s
+Nov 18, 2020 11:06:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1021
+Nov 18, 2020 11:06:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1047
+2020.11.18 11:06:23 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:06:23 INFO  time: compiled particle-simulator in 0.34s
+2020.11.18 11:06:25 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:06:25 INFO  time: compiled particle-simulator in 0.65s
+2020.11.18 11:06:29 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:06:29 INFO  time: compiled particle-simulator in 0.77s
+2020.11.18 11:06:52 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:06:52 INFO  time: compiled particle-simulator in 0.23s
+Nov 18, 2020 11:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1137
+Nov 18, 2020 11:07:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1143
+2020.11.18 11:07:18 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:07:18 INFO  time: compiled particle-simulator in 0.73s
+2020.11.18 11:07:57 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:07:57 INFO  time: compiled particle-simulator in 0.91s
+2020.11.18 11:08:10 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:08:10 INFO  time: compiled particle-simulator in 0.67s
+2020.11.18 11:08:12 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:08:12 INFO  time: compiled particle-simulator in 0.71s
+2020.11.18 11:08:23 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:08:23 INFO  time: compiled particle-simulator in 0.23s
+2020.11.18 11:08:53 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:08:53 INFO  time: compiled particle-simulator in 0.54s
+2020.11.18 11:08:59 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:08:59 INFO  time: compiled particle-simulator in 0.67s
+Nov 18, 2020 11:09:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1390
+Nov 18, 2020 11:09:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1487
+2020.11.18 11:10:08 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:10:08 INFO  time: compiled particle-simulator in 0.55s
+Nov 18, 2020 11:10:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1599
+Nov 18, 2020 11:10:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1625
+2020.11.18 11:10:51 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:10:51 INFO  time: compiled particle-simulator in 0.96s
+2020.11.18 11:11:30 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:11:30 INFO  time: compiled particle-simulator in 0.7s
+2020.11.18 11:11:32 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:11:33 INFO  time: compiled particle-simulator in 1.06s
+2020.11.18 11:11:36 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:11:36 INFO  time: compiled particle-simulator in 0.64s
+2020.11.18 11:11:38 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:11:38 INFO  time: compiled particle-simulator in 0.76s
+2020.11.18 11:12:00 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:12:00 INFO  time: compiled particle-simulator in 0.15s
+Exception in thread "coursier-pool-1-thread-9" java.lang.OutOfMemoryError: Java heap space
+	at java.io.BufferedInputStream.<init>(Unknown Source)
+	at coursierapi.shaded.coursier.cache.FileCache.$anonfun$download$34(FileCache.scala:384)
+	at coursierapi.shaded.coursier.cache.FileCache$$Lambda$2553/2701431.apply(Unknown Source)
+	at coursierapi.shaded.coursier.cache.FileCache$.$anonfun$downloading$1(FileCache.scala:1023)
+	at coursierapi.shaded.coursier.cache.FileCache$$$Lambda$2554/20569911.apply(Unknown Source)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withUrlLock(CacheLocks.scala:116)
+	at coursierapi.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:1023)
+	at coursierapi.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1057)
+	at coursierapi.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:321)
+	at coursierapi.shaded.coursier.cache.FileCache.$anonfun$download$55(FileCache.scala:506)
+	at coursierapi.shaded.coursier.cache.FileCache$$Lambda$2542/7334416.apply(Unknown Source)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:72)
+	at coursierapi.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:98)
+	at coursierapi.shaded.coursier.cache.FileCache.$anonfun$download$33(FileCache.scala:507)
+	at coursierapi.shaded.coursier.cache.FileCache$$Lambda$2535/25530382.apply(Unknown Source)
+	at coursierapi.shaded.scala.concurrent.Future$.$anonfun$apply$1(Future.scala:671)
+	at coursierapi.shaded.scala.concurrent.Future$$$Lambda$598/9475763.apply(Unknown Source)
+	at coursierapi.shaded.scala.concurrent.impl.Promise$Transformation.run(Promise.scala:430)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2020.11.18 11:21:44 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:49:06 INFO  Started: Metals version 0.9.5 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator' for client vscode.
+2020.11.18 11:49:06 INFO  time: initialize in 0.48s
+2020.11.18 11:49:11 INFO  Attempting to connect to the build server...
+2020.11.18 11:49:11 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.11.18 11:49:11 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41317'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41317...
+The server is listening for incoming connections at tcp://127.0.0.1:41317...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.18 11:49:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.18 11:49:12 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22009'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22009...
+The server is listening for incoming connections at tcp://127.0.0.1:22009...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.18 11:49:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.18 11:49:13 INFO  time: connected to build server in 1.92s
+2020.11.18 11:49:13 INFO  Connected to Build server v1.4.5-2-eb51d668
+2020.11.18 11:49:14 INFO  no build target: using presentation compiler with only scala-library
+2020.11.18 11:49:15 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.18 11:49:15 INFO  time: indexed workspace in 2.04s
+2020.11.18 11:49:15 INFO  compiling particle-simulator (9 scala sources)
+2020.11.18 11:49:17 INFO  time: compiled particle-simulator in 1.55s
+2020.11.18 12:27:23 INFO  shutting down Metals
+2020.11.18 12:27:24 INFO  Shut down connection with build server.
+2020.11.18 12:27:24 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

@@ -101,6 +101,24 @@ class Vect (val name : String = "", private var x: Double = 0.0, private var y: 
         Math.sqrt(magX + magY + magZ)
     }
 
+    def dot (data: Vect): Double = {
+        val (dX, dY, dZ) = data.getData
+        val dotX = dX * x
+        val dotY = dY * y
+        val dotZ = dZ * z
+
+        dotX + dotY + dotZ
+    }
+
+    def unit: Vect = {
+        val norm = mag
+        val normX = x / norm
+        val normY = y / norm
+        val normZ = z / norm
+
+        Vect("Unit ("+name+")", normX, normY, normZ)
+    }
+
     override def toString(): String = "("+x+", "+y+", "+z+")\n"
 
     def toXML: scala.xml.Node = <vect nm={name} xComp={x.toString} yComp={y.toString} zComp={z.toString}/>

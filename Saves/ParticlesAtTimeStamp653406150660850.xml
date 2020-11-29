@@ -1,0 +1,17 @@
+<Particles><particle nme="" rad="1.0" m="1.0">
+            <vect nm="" xComp="3.981494443942277E-21" yComp="2.06105677389314E-20" zComp="0.0"/>
+            <vect nm="" xComp="2.42036108942602E-22" yComp="4.202362920887911E-21" zComp="0.0"/>
+            <vect nm="" xComp="9.814809761682985E-20" yComp="4.164507597843547E-22" zComp="0.0"/>
+        </particle><particle nme="" rad="1.0" m="1.0">
+            <vect nm="" xComp="3.981494443942277E-21" yComp="2.06105677389314E-20" zComp="0.0"/>
+            <vect nm="" xComp="2.42036108942602E-22" yComp="4.202362920887911E-21" zComp="0.0"/>
+            <vect nm="" xComp="9.814809761682985E-20" yComp="4.164507597843547E-22" zComp="0.0"/>
+        </particle><particle nme="" rad="1.0" m="1.0E-20">
+            <vect nm="" xComp="-0.3981494443942277" yComp="-2.0610567738931405" zComp="0.0"/>
+            <vect nm="" xComp="0.9757963891056882" yComp="-0.420236292088914" zComp="0.0"/>
+            <vect nm="" xComp="0.18518722631682263" yComp="0.9583549240209299" zComp="0.0"/>
+        </particle><particle nme="" rad="1.0" m="1.0E-20">
+            <vect nm="" xComp="-0.3981494443942277" yComp="-2.0610567738931405" zComp="0.0"/>
+            <vect nm="" xComp="0.9757963891056882" yComp="-0.420236292088914" zComp="0.0"/>
+            <vect nm="" xComp="0.18518722631682263" yComp="0.9583549240209299" zComp="0.0"/>
+        </particle></Particles>

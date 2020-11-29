@@ -1,0 +1,17 @@
+<Particles><particle nme="" rad="1.0" m="1.0">
+            <vect nm="" xComp="0.0" yComp="2.0E-20" zComp="0.0"/>
+            <vect nm="" xComp="0.0" yComp="0.0" zComp="0.0"/>
+            <vect nm="" xComp="0.0" yComp="0.0" zComp="0.0"/>
+        </particle><particle nme="" rad="1.0" m="1.0">
+            <vect nm="" xComp="0.0" yComp="2.0E-20" zComp="0.0"/>
+            <vect nm="" xComp="0.0" yComp="0.0" zComp="0.0"/>
+            <vect nm="" xComp="0.0" yComp="0.0" zComp="0.0"/>
+        </particle><particle nme="" rad="1.0" m="1.0E-20">
+            <vect nm="" xComp="0.0" yComp="-2.0" zComp="0.0"/>
+            <vect nm="" xComp="1.0" yComp="0.0" zComp="0.0"/>
+            <vect nm="" xComp="0.0" yComp="1.0" zComp="0.0"/>
+        </particle><particle nme="" rad="1.0" m="1.0E-20">
+            <vect nm="" xComp="0.0" yComp="-2.0" zComp="0.0"/>
+            <vect nm="" xComp="1.0" yComp="0.0" zComp="0.0"/>
+            <vect nm="" xComp="0.0" yComp="1.0" zComp="0.0"/>
+        </particle></Particles>
