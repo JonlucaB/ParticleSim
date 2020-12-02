@@ -1,0 +1,272 @@
+2020.12.01 21:55:49 INFO  Started: Metals version 0.9.7 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src' for client vscode.
+2020.12.01 21:55:50 INFO  time: initialize in 0.47s
+2020.12.01 21:55:50 WARN  Build server is not auto-connectable.
+2020.12.01 21:55:50 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 21:55:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\DrawSystem.scala
+2020.12.01 21:55:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 21:55:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 21:55:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Ray.scala
+2020.12.01 21:55:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 21:55:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.01 21:55:52 INFO  no build target: using presentation compiler with only scala-library
+2020.12.01 21:56:54 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 21:57:00 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 21:57:00 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 21:57:59 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Ray.scala
+2020.12.01 21:58:05 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+Dec 01, 2020 9:59:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 272
+Dec 01, 2020 10:00:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 310
+2020.12.01 22:00:08 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:00:08 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.01 22:00:20 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.01 22:00:46 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:00:46 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:00:50 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:00:50 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:01:00 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:01:00 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:01:00 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:01:00 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:01:20 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:01:20 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:01:20 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:01:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:01:43 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:01:45 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:01:46 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:01:51 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:01:58 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:02:16 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:03:03 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:03:11 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.01 22:03:40 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:04:22 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:04:28 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:04:34 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:04:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:04:59 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:05:13 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:05:57 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:06:31 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:06:46 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\SystemRenderer3D.scala
+2020.12.01 22:06:47 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\drawParticle.scala
+2020.12.01 22:06:55 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\drawParticle.scala
+Dec 01, 2020 10:08:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:08:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 298 >= 298
+java.lang.AssertionError: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 298 >= 298
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Dec 01, 2020 10:08:34 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:08:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 376 >= 376
+java.lang.AssertionError: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 376 >= 376
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Dec 01, 2020 10:08:35 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:08:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 381 >= 381
+java.lang.AssertionError: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 381 >= 381
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Dec 01, 2020 10:08:36 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:08:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 391 >= 391
+java.lang.AssertionError: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 391 >= 391
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Dec 01, 2020 10:08:46 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:08:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 439 >= 439
+java.lang.AssertionError: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 439 >= 439
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Dec 01, 2020 10:10:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:10:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 667 >= 667
+java.lang.AssertionError: assertion failed: file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/SystemRenderer3D.scala: 667 >= 667
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+2020.12.01 22:10:20 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\SystemRenderer3D.scala
+2020.12.01 22:10:39 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:10:49 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:11:40 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 22:12:08 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 22:12:08 INFO  shutting down Metals
+2020.12.01 22:14:58 INFO  Started: Metals version 0.9.7 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src' for client vscode.
+2020.12.01 22:14:59 INFO  time: initialize in 0.45s
+2020.12.01 22:14:59 WARN  Build server is not auto-connectable.
+2020.12.01 22:14:59 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:14:59 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 22:15:01 INFO  no build target: using presentation compiler with only scala-library
+2020.12.01 22:15:23 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Ray.scala
+2020.12.01 22:15:26 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:15:26 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.01 22:15:27 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:15:30 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Xform.scala
+2020.12.01 22:15:30 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Xform.scala
+2020.12.01 22:15:49 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 01, 2020 10:15:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.01 22:15:49 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Xform.scala
+Dec 01, 2020 10:15:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/Xform.scala,line-1,offset=85
+scala.reflect.internal.FatalError: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/Xform.scala,line-1,offset=85
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.12.01 22:15:51 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.01 22:15:53 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\SystemRenderer3D.scala
+2020.12.01 22:16:05 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:16:05 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:17:02 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:17:32 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:17:32 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:17:36 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:17:36 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:17:45 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:20:31 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:20:58 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+Dec 01, 2020 10:21:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:21:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.12.01 22:21:55 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:22:35 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:23:03 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:25:56 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 22:26:47 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+Dec 01, 2020 10:27:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2098
+2020.12.01 22:28:04 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:28:06 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:28:14 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 22:28:37 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:28:41 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:29:48 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:29:50 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:32:32 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:33:04 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:33:04 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:33:04 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:33:16 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:33:16 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:33:19 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:33:26 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:35:08 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:35:23 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:36:09 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:36:13 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:36:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.01 22:36:23 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:36:23 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:36:23 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:36:23 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:37:10 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:37:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:37:28 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:37:53 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:40:17 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:40:41 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:41:07 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 01, 2020 10:41:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.01 22:41:07 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 01, 2020 10:41:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystemRenderer3D.scala,line-5,offset=427
+scala.reflect.internal.FatalError: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystemRenderer3D.scala,line-5,offset=427
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.12.01 22:41:07 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:41:07 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 01, 2020 10:41:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 01, 2020 10:41:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystemRenderer3D.scala,line-1,offset=28
+scala.reflect.internal.FatalError: no context found for source-file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystemRenderer3D.scala,line-1,offset=28
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.12.01 22:41:11 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:41:15 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:41:19 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Util.scala
+2020.12.01 22:41:24 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Xform.scala
+2020.12.01 22:41:30 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.01 22:41:33 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.01 22:41:38 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.01 22:42:01 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Xform.scala
+2020.12.01 22:42:21 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:42:21 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:42:24 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:42:24 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:42:24 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:42:30 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:42:49 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:42:55 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:43:11 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:43:47 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:43:56 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:44:05 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:44:32 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:44:39 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:44:39 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:47:49 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.01 22:48:07 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:48:36 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.01 22:48:47 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.01 22:49:00 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.01 22:49:23 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.01 22:50:14 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:50:31 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:51:07 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:51:19 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:51:40 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:52:23 WARN  no build tool detected in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.01 22:52:23 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:52:47 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.01 22:53:03 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+Dec 01, 2020 10:53:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
