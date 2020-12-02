@@ -21,7 +21,7 @@ object PUtil
     def check(maxTime: Long = -1L, maxIts: Long = -1L, iterations: Long = -1L, timePass: Long = -1L, startTime: Long = -1L, pauseTimePassed: Long = -1L): Boolean = {
         if (timePass != -1) (System.nanoTime - startTime - pauseTimePassed)/1e9 < maxTime
         else if (maxIts != -1) iterations < maxIts
-        else false
+        else true
     }
 
     def HitReturnToContinue = {

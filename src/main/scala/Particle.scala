@@ -3,8 +3,12 @@
     assign a velocity, position, radius, and mass to, and from which we can simulate acceleration,
     collisions, and other functionalities. 
 */
+package ParticleSim
+
 import scala.xml.XML._
 import scalafx.scene.paint.Color
+import scalafx.scene.shape.Sphere
+import scalafx.scene.paint.PhongMaterial
 
 class Particle(
         val name: String = "", 
@@ -16,15 +20,22 @@ class Particle(
 
     val color = Color.color(Math.random(), Math.random(), Math.random());
 
-    val debug = false
-
-    def distance(ambassador: Particle): Double = 
-        {
-            val dVect = ambassador.position - position
-            dVect.mag
+    val pSphere = new Sphere(radius) {
+        material = new PhongMaterial {
+            diffuseColor = color
+            specularColor = Color.White
         }
 
+        val (x, y, z) = position.getData
 
+        translateX = x
+        translateY = y
+        translateZ = z
+    }
+
+    def getPosition: (Double, Double, Double) = position.getData
+
+    def distance(ambassador: Particle): Vect = ambassador.position - position
 
     //returns the force of gravity between this particle and another (ambassador) as a vector
     //usees the function Fg = [G(m1 * m2) / |d|^3] * d such that d is the distance vector
@@ -34,22 +45,14 @@ class Particle(
     {
         if(ambassador == this) return new Vect("", 0.0, 0.0, 0.0)
 
-        val distVect = ambassador.position - position
+        val distVect = distance(ambassador)
         
         val d = {
             val temp = distVect.mag
             temp * temp * temp
         }
         
-        
         val scalD = if(d != 0) (mass * ambassador.mass) / d else 0.0
-        
-        if(debug)
-        {
-            println("distVect = "+distVect.toString)
-            println("d = "+d)
-            println("scalD = "+scalD)
-        }
         
         distVect * scalD
     }
@@ -58,7 +61,18 @@ class Particle(
 
     def updateV(dT: Double) = velocity = {velocity + (acceleration * dT)}
 
-    def updateP(dT: Double) = position = {position + (velocity * dT)}
+    def updateP(dT: Double) = {
+        position = {position + (velocity * dT)}
+        updateSphere
+    }
+
+    def updateSphere: Unit = {
+        val (x, y, z) = position.getData
+
+        pSphere.translateX = x * 5
+        pSphere.translateY = y * 5
+        pSphere.translateZ = z * 5
+    }
 
     def toString(acc: Boolean, vel: Boolean, pos: Boolean): String = {
         val accS = if(acc) "Acceleration ---------- "+acceleration.toString+"\n" else ""
@@ -75,8 +89,6 @@ class Particle(
             {position.toXML}
         </particle>
     }
-
-    def toDrawParticle: drawParticle = drawParticle(radius, color, position)
 }
 
 

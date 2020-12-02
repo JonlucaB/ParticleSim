@@ -270,3 +270,4 @@ scala.reflect.internal.FatalError: no context found for source-file:///E:/Side%2
 2020.12.01 22:53:03 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
 Dec 01, 2020 10:53:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.12.01 22:56:31 INFO  shutting down Metals

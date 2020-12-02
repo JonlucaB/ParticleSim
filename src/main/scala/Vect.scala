@@ -5,9 +5,11 @@ The purpose of this class is to provide a model for a 3D vector with mathematica
 It consists of Double, and has Polymorphic functions. The particle system relies heavily on 
 the functionality of the 3D Vector class
 */
+package ParticleSim
+
 import scala.xml._
 
-class Vect (val name : String = "", private var x: Double = 0.0, private var y: Double = 0.0, private var z: Double = 0.0) extends Serializable
+class Vect (val name : String = "", private var x: Double = 0.0, private var y: Double = 0.0, private var z: Double = 0.0)
 {
     
     //Provides the three dimensional data for a Vector
@@ -117,163 +119,163 @@ object Vect {
 
     val DIAGNOSTIC_LEVEL = 6
 
-    def test = {
+    // def test = {
         
-        //Testing addition
-        if(DIAGNOSTIC_LEVEL <= 1) 
-        {
-            println("///////////////////////////////////////////////////////////\n")
-            println("//           TESTING ADDITION WITH VECTORS               //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //     //Testing addition
+    //     if(DIAGNOSTIC_LEVEL <= 1) 
+    //     {
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//           TESTING ADDITION WITH VECTORS               //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testVect = new Vect("One")
+    //         val testVect = new Vect("One")
 
-            val testVect2 = new Vect("Two", 1.0, 1.0, 1.0)
+    //         val testVect2 = new Vect("Two", 1.0, 1.0, 1.0)
 
-            val (x, y, z) = testVect.getData
+    //         val (x, y, z) = testVect.getData
 
-            val addVect = testVect + testVect2
+    //         val addVect = testVect + testVect2
 
-            println("testVect = "+x+" "+y+" "+z+"\n")
+    //         println("testVect = "+x+" "+y+" "+z+"\n")
 
-            println("Should be => \nOne Two = (1.0, 1.0, 1.0)\n"+addVect.toString)
+    //         println("Should be => \nOne Two = (1.0, 1.0, 1.0)\n"+addVect.toString)
 
-            val testVect3 = new Vect("Three", 2.0, 2.0, 2.0)
+    //         val testVect3 = new Vect("Three", 2.0, 2.0, 2.0)
 
-            val testVect4 = new Vect("Four", -1.0, -1.0, -1.0)
+    //         val testVect4 = new Vect("Four", -1.0, -1.0, -1.0)
 
-            val testVect5 = new Vect("Five", 3.0, 4.0, 5.0)
+    //         val testVect5 = new Vect("Five", 3.0, 4.0, 5.0)
 
-            val addVect2 = (testVect3 + testVect4) + testVect5
+    //         val addVect2 = (testVect3 + testVect4) + testVect5
 
-            println("Should be => \nThree Four Five = (4.0, 5.0, 6.0)\n"+addVect2.toString)
-        }
+    //         println("Should be => \nThree Four Five = (4.0, 5.0, 6.0)\n"+addVect2.toString)
+    //     }
 
-        //testing subtraction
-        if(DIAGNOSTIC_LEVEL <= 2)
-        {
+    //     //testing subtraction
+    //     if(DIAGNOSTIC_LEVEL <= 2)
+    //     {
 
-            println("///////////////////////////////////////////////////////////\n")
-            println("//           TESTING SUBTRACTION WITH VECTORS            //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//           TESTING SUBTRACTION WITH VECTORS            //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testVect = new Vect("One")
+    //         val testVect = new Vect("One")
 
-            val testVect2 = new Vect("Two", 1.0, 1.0, 1.0)
+    //         val testVect2 = new Vect("Two", 1.0, 1.0, 1.0)
 
-            val (x, y, z) = testVect.getData
+    //         val (x, y, z) = testVect.getData
 
-            val subVect = testVect - testVect2
+    //         val subVect = testVect - testVect2
 
-            println("testVect = "+x+" "+y+" "+z+"\n")
+    //         println("testVect = "+x+" "+y+" "+z+"\n")
 
-            println("Should be => \nOne Two = (1.0, 1.0, 1.0)\n\n"+subVect.toString)
+    //         println("Should be => \nOne Two = (1.0, 1.0, 1.0)\n\n"+subVect.toString)
 
-            Util.HitReturnToContinue
+    //         Util.HitReturnToContinue
 
-            val testVect3 = new Vect("Three", 2.0, 2.0, 2.0)
+    //         val testVect3 = new Vect("Three", 2.0, 2.0, 2.0)
 
-            val testVect4 = new Vect("Four", -1.1, -1.2, -1.3)
+    //         val testVect4 = new Vect("Four", -1.1, -1.2, -1.3)
 
-            val testVect5 = new Vect("Five", 3.0, 4.0, 5.0)
+    //         val testVect5 = new Vect("Five", 3.0, 4.0, 5.0)
 
-            val addVect2 = (testVect3 - testVect4) - testVect5
+    //         val addVect2 = (testVect3 - testVect4) - testVect5
 
-            println("Should be => \nThree Four Five = (0.1, -0.8, -1.7)\n\n"+addVect2.toString)
+    //         println("Should be => \nThree Four Five = (0.1, -0.8, -1.7)\n\n"+addVect2.toString)
 
-            Util.HitReturnToContinue
-        }
+    //         Util.HitReturnToContinue
+    //     }
 
-        if(DIAGNOSTIC_LEVEL <= 3)
-        {   
-            println("///////////////////////////////////////////////////////////\n")
-            println("//           TESTING DOT WITH VECTORS                    //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //     if(DIAGNOSTIC_LEVEL <= 3)
+    //     {   
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//           TESTING DOT WITH VECTORS                    //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testVect = new Vect("One", 3.0, 2.5, 2.0)
+    //         val testVect = new Vect("One", 3.0, 2.5, 2.0)
 
-            val testVect2 = new Vect("Two", 2.0, 2.5, 3.0)
+    //         val testVect2 = new Vect("Two", 2.0, 2.5, 3.0)
 
-            val (x, y, z) = testVect.getData
+    //         val (x, y, z) = testVect.getData
 
-            val vectMultVect = testVect * testVect2
+    //         val vectMultVect = testVect * testVect2
 
-            println("testVect = "+x+" "+y+" "+z+"\n")
+    //         println("testVect = "+x+" "+y+" "+z+"\n")
 
-            println("Should be => \nOne Two = (6.0, 6.25, 6.0)\n\n"+vectMultVect.toString)
+    //         println("Should be => \nOne Two = (6.0, 6.25, 6.0)\n\n"+vectMultVect.toString)
 
-            Util.HitReturnToContinue
+    //         Util.HitReturnToContinue
 
-            println("///////////////////////////////////////////////////////////\n")
-            println("//           TESTING MULTIPLY WITH SCALARS               //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//           TESTING MULTIPLY WITH SCALARS               //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testScalVect = new Vect("One", 3.0, 2.5, 2.0)
+    //         val testScalVect = new Vect("One", 3.0, 2.5, 2.0)
 
-            val (xs, ys, zs) = testVect.getData
+    //         val (xs, ys, zs) = testVect.getData
 
-            val scalMultVect = testScalVect * 4.0
+    //         val scalMultVect = testScalVect * 4.0
 
-            println("testVect = "+xs+" "+ys+" "+zs+"\n")
+    //         println("testVect = "+xs+" "+ys+" "+zs+"\n")
 
-            println("Should be => \nOne Two = (12.0, 10.0, 8.0)\n\n"+scalMultVect.toString)
+    //         println("Should be => \nOne Two = (12.0, 10.0, 8.0)\n\n"+scalMultVect.toString)
 
-            Util.HitReturnToContinue
-        }
+    //         Util.HitReturnToContinue
+    //     }
         
-        if(DIAGNOSTIC_LEVEL <= 4)
-        {
-            println("///////////////////////////////////////////////////////////\n")
-            println("//           TESTING CROSS PRODUCT                       //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //     if(DIAGNOSTIC_LEVEL <= 4)
+    //     {
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//           TESTING CROSS PRODUCT                       //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testVect = new Vect("One", 3.0, 2.5, 2.0)
+    //         val testVect = new Vect("One", 3.0, 2.5, 2.0)
 
-            val testVectTwo = new Vect("Two", 2.6, 3.8, 10.11)
+    //         val testVectTwo = new Vect("Two", 2.6, 3.8, 10.11)
 
-            val scalMultVect = testVect x testVectTwo
+    //         val scalMultVect = testVect x testVectTwo
 
-            println("Should be => \nOne X (One * 4.0) = (17.675, -25.13, 4.9)\n\n"+scalMultVect.toString)
+    //         println("Should be => \nOne X (One * 4.0) = (17.675, -25.13, 4.9)\n\n"+scalMultVect.toString)
 
-            Util.HitReturnToContinue
-        }
+    //         Util.HitReturnToContinue
+    //     }
 
-        if(DIAGNOSTIC_LEVEL <= 5)
-        {
-            println("///////////////////////////////////////////////////////////\n")
-            println("//                    TESTING EQUALS                     //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //     if(DIAGNOSTIC_LEVEL <= 5)
+    //     {
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//                    TESTING EQUALS                     //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testVect = new Vect("One", 3.0, 2.5, 2.0)
+    //         val testVect = new Vect("One", 3.0, 2.5, 2.0)
 
-            val testVectTwo = new Vect("Two", 2.6, 3.8, 10.11)
+    //         val testVectTwo = new Vect("Two", 2.6, 3.8, 10.11)
 
-            val scalEqVect = testVect equal testVectTwo
+    //         val scalEqVect = testVect equal testVectTwo
 
-            println("Should be => \n(Two) = (2.6, 3.8, 10.11)\n\n"+scalEqVect.toString)
+    //         println("Should be => \n(Two) = (2.6, 3.8, 10.11)\n\n"+scalEqVect.toString)
 
-            Util.HitReturnToContinue
-        }
+    //         Util.HitReturnToContinue
+    //     }
 
-        if(DIAGNOSTIC_LEVEL <= 6)
-        {
-            println("///////////////////////////////////////////////////////////\n")
-            println("//            TESTING MAGNITUDE OF A VECTOR              //\n")
-            println("///////////////////////////////////////////////////////////\n")
+    //     if(DIAGNOSTIC_LEVEL <= 6)
+    //     {
+    //         println("///////////////////////////////////////////////////////////\n")
+    //         println("//            TESTING MAGNITUDE OF A VECTOR              //\n")
+    //         println("///////////////////////////////////////////////////////////\n")
 
-            val testVect = new Vect("One", 3.0, 2.5, 2.0)
+    //         val testVect = new Vect("One", 3.0, 2.5, 2.0)
 
-            val testVectTwo = new Vect("Two", 2.6, 3.8, 10.11)
+    //         val testVectTwo = new Vect("Two", 2.6, 3.8, 10.11)
 
-            val oneMag = testVect.mag
+    //         val oneMag = testVect.mag
 
-            val twoMag = testVectTwo.mag
+    //         val twoMag = testVectTwo.mag
 
-            println("Should be => \n4.387482193696061\n\n"+oneMag)
+    //         println("Should be => \n4.387482193696061\n\n"+oneMag)
 
-            println("Should be => \n11.109099873527107\n\n"+twoMag)            
+    //         println("Should be => \n11.109099873527107\n\n"+twoMag)            
 
-            Util.HitReturnToContinue
-        }
-    }
+    //         Util.HitReturnToContinue
+    //     }
+    // }
 }

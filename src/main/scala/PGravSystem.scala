@@ -1,3 +1,5 @@
+package ParticleSim
+
 import scala.collection.mutable
 /*
     The purpose of the PGravSystem (Particle System) class is to provide the proper implementation
@@ -15,21 +17,12 @@ class PGravSystem(name: String) extends PSystem {
             val gForces: mutable.ListBuffer[Vect] = particles.map[Vect](p => particle.gravF(p))
         
             val sumForce: Vect = gForces.reduce(_ + _)
-
-            if(debug)
-            {
-                for(gF <- gForces) println(gF.toString)
-                println(sumForce+"\n")
-            }
             
             particle.updateA(sumForce)
         }
 
-        for(particle <- particles)
-        {
-            particle.updateV(dT)
-            particle.updateP(dT)
-        }
+        for(particle <- particles) particle.updateV(dT)
+        for(particle <- particles) particle.updateP(dT)
     }
 
     def draw: Unit = ???

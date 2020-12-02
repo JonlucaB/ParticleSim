@@ -2582,3 +2582,1325 @@ Waiting for the bsp connection to come up...
 Starting the bsp launcher for bloop...
 Opening a bsp server connection with 'bsp --protocol tcp --port 18510'...
 Waiting for the bsp connection to come up...
+2020.12.02 08:45:47 INFO  Started: Metals version 0.9.7 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator' for client vscode.
+2020.12.02 08:45:47 INFO  time: initialize in 0.55s
+2020.12.02 08:45:48 INFO  Attempting to connect to the build server...
+2020.12.02 08:45:48 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala
+2020.12.02 08:45:48 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.02 08:45:48 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32552'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 0 projects from 'e:\Side Projects\ParticleSim\Particle-Simulator\.bloop'...
+[0m[32m[D][0m Configured SemanticDB in projects 'particle-simulator-test', 'particle-simulator'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32552...
+The server is listening for incoming connections at tcp://127.0.0.1:32552...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.12.02 08:45:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.12.02 08:45:51 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21426'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21426...
+The server is listening for incoming connections at tcp://127.0.0.1:21426...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.12.02 08:45:52 INFO  no build target: using presentation compiler with only scala-library
+2020.12.02 08:45:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Dec 02, 2020 8:45:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Dec 02, 2020 8:45:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2020.12.02 08:45:58 INFO  time: connected to build server in 9.73s
+2020.12.02 08:45:58 INFO  Connected to Build server v1.4.5-2-eb51d668
+2020.12.02 08:46:00 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.12.02 08:46:00 ERROR unexpected error during source scanning
+java.nio.file.FileSystemNotFoundException: E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalafx\scalafx_2.13\12.0.2-R18\scalafx_2.13-12.0.2-R18-sources.jar
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:34)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$addSourceJarSymbols$1(MetalsLanguageServer.scala:2221)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJarTopLevels$1(OnDemandSymbolIndex.scala:101)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJarTopLevels(OnDemandSymbolIndex.scala:100)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2220)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5(MetalsLanguageServer.scala:2188)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5$adapted(MetalsLanguageServer.scala:2179)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2179)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2178)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2178)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2124)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2124)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 08:46:00 ERROR unexpected error during source scanning
+java.nio.file.FileSystemNotFoundException: E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.0.0-M2\scala-xml_2.13-2.0.0-M2-sources.jar
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:34)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$addSourceJarSymbols$1(MetalsLanguageServer.scala:2221)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJarTopLevels$1(OnDemandSymbolIndex.scala:101)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJarTopLevels(OnDemandSymbolIndex.scala:100)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2220)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5(MetalsLanguageServer.scala:2188)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5$adapted(MetalsLanguageServer.scala:2179)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2179)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2178)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2178)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2124)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2124)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 08:46:05 INFO  time: indexed workspace in 6.93s
+2020.12.02 08:46:05 INFO  compiling particle-simulator (8 scala sources)
+Dec 02, 2020 8:46:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Dec 02, 2020 8:46:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Dec 02, 2020 8:46:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2020.12.02 08:46:12 INFO  Deduplicating compilation of particle-simulator from bsp client 'Metals 0.9.7' (since 20.276s)
+2020.12.02 08:46:13 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:46:18 INFO  time: compiled particle-simulator in 4.93s
+2020.12.02 08:46:19 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:46:20 INFO  time: compiled particle-simulator in 1.3s
+2020.12.02 08:48:52 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:48:52 INFO  time: compiled particle-simulator in 0.93s
+2020.12.02 08:48:53 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:48:53 INFO  time: compiled particle-simulator in 0.92s
+2020.12.02 08:48:55 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:48:55 INFO  time: compiled particle-simulator in 0.8s
+2020.12.02 08:49:23 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:49:23 INFO  time: compiled particle-simulator in 0.79s
+Dec 02, 2020 8:49:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+2020.12.02 08:49:44 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:49:44 INFO  time: compiled particle-simulator in 0.96s
+2020.12.02 08:49:46 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:49:46 INFO  time: compiled particle-simulator in 0.81s
+2020.12.02 08:49:55 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:49:55 INFO  time: compiled particle-simulator in 0.95s
+2020.12.02 08:49:57 INFO  compiling particle-simulator (9 scala sources)
+Dec 02, 2020 8:49:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+2020.12.02 08:49:59 INFO  time: compiled particle-simulator in 1.16s
+Dec 02, 2020 8:49:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 285
+2020.12.02 08:50:01 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:50:01 INFO  time: compiled particle-simulator in 0.65s
+2020.12.02 08:50:02 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:50:02 INFO  time: compiled particle-simulator in 0.83s
+2020.12.02 08:50:04 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:50:04 INFO  time: compiled particle-simulator in 0.98s
+2020.12.02 08:50:13 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:50:13 INFO  time: compiled particle-simulator in 0.68s
+2020.12.02 08:50:31 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:50:31 INFO  time: compiled particle-simulator in 0.77s
+Dec 02, 2020 8:50:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Dec 02, 2020 8:50:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.12.02 08:52:18 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.12.02 08:52:18 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.12.02 08:52:18 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:52:19 INFO  time: compiled particle-simulator in 1.29s
+2020.12.02 08:52:24 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:52:24 INFO  time: compiled particle-simulator in 0.97s
+2020.12.02 08:52:44 ERROR code navigation does not work for the file 'E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala' because the SemanticDB file 'E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.12.02 08:52:44 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:52:44 INFO  time: compiled particle-simulator in 0.68s
+2020.12.02 08:53:02 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:53:02 INFO  time: compiled particle-simulator in 0.69s
+2020.12.02 08:53:08 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:53:08 INFO  time: compiled particle-simulator in 0.8s
+2020.12.02 08:53:11 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:53:11 INFO  time: compiled particle-simulator in 0.64s
+Dec 02, 2020 8:54:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": "git:/e%3A/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/Vect.scala?%7B%22path%22%3A%22e%3A%5C%5CSide%20Projects%5C%5CParticleSim%5C%5CParticle-Simulator%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CVect.scala%22%2C%22ref%22%3A%22~%22%7D"
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.nio.file.Paths.get(Unknown Source)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:440)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:437)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:919)
+	... 15 more
+
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:10:46: stale bloop error: not found: type Particle
+        val particlePool: mutable.ListBuffer[Particle] = mutable.ListBuffer[Particle]()
+                                             ^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:10:77: stale bloop error: not found: type Particle
+        val particlePool: mutable.ListBuffer[Particle] = mutable.ListBuffer[Particle]()
+                                                                            ^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:12:44: stale bloop error: not found: type PSystem
+        val systemPool: mutable.ListBuffer[PSystem] = mutable.ListBuffer[PSystem]()
+                                           ^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:12:74: stale bloop error: not found: type PSystem
+        val systemPool: mutable.ListBuffer[PSystem] = mutable.ListBuffer[PSystem]()
+                                                                         ^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:17:61: stale bloop error: not found: value Particle
+        for(n <- particlesXML \ "particle") particlePool += Particle(n)
+                                                            ^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:20:30: stale bloop error: not found: type PGravSystem
+        val testSystem = new PGravSystem("TestSystem1")
+                             ^^^^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:10:46: stale bloop error: not found: type Particle
+        val particlePool: mutable.ListBuffer[Particle] = mutable.ListBuffer[Particle]()
+                                             ^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:10:77: stale bloop error: not found: type Particle
+        val particlePool: mutable.ListBuffer[Particle] = mutable.ListBuffer[Particle]()
+                                                                            ^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:12:44: stale bloop error: not found: type PSystem
+        val systemPool: mutable.ListBuffer[PSystem] = mutable.ListBuffer[PSystem]()
+                                           ^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:12:74: stale bloop error: not found: type PSystem
+        val systemPool: mutable.ListBuffer[PSystem] = mutable.ListBuffer[PSystem]()
+                                                                         ^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:17:61: stale bloop error: not found: value Particle
+        for(n <- particlesXML \ "particle") particlePool += Particle(n)
+                                                            ^^^^^^^^
+2020.12.02 08:54:47 INFO  E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Main.scala:20:30: stale bloop error: not found: type PGravSystem
+        val testSystem = new PGravSystem("TestSystem1")
+                             ^^^^^^^^^^^
+2020.12.02 08:54:47 INFO  compiling particle-simulator (9 scala sources)
+2020.12.02 08:54:47 INFO  time: compiled particle-simulator in 0.77s
+2020.12.02 08:56:43 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:56:43 INFO  time: compiled particle-simulator in 0.61s
+2020.12.02 08:56:45 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:56:45 INFO  time: compiled particle-simulator in 0.73s
+2020.12.02 08:56:47 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:56:47 INFO  time: compiled particle-simulator in 0.22s
+2020.12.02 08:56:48 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:56:48 INFO  time: compiled particle-simulator in 0.64s
+2020.12.02 08:56:54 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:56:54 INFO  time: compiled particle-simulator in 0.56s
+2020.12.02 08:57:11 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:57:11 INFO  time: compiled particle-simulator in 0.75s
+2020.12.02 08:57:18 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:57:18 INFO  time: compiled particle-simulator in 0.54s
+2020.12.02 08:57:58 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:57:58 INFO  time: compiled particle-simulator in 0.55s
+2020.12.02 08:58:05 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:58:05 INFO  time: compiled particle-simulator in 0.54s
+2020.12.02 08:58:30 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:58:30 INFO  time: compiled particle-simulator in 0.63s
+2020.12.02 08:58:58 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:58:58 INFO  time: compiled particle-simulator in 0.58s
+2020.12.02 08:59:04 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:59:04 INFO  time: compiled particle-simulator in 0.59s
+2020.12.02 08:59:35 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 08:59:35 INFO  time: compiled particle-simulator in 1s
+2020.12.02 09:01:56 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 09:01:56 INFO  time: compiled particle-simulator in 0.68s
+2020.12.02 09:02:00 INFO  compiling particle-simulator (8 scala sources)
+2020.12.02 09:02:00 INFO  time: compiled particle-simulator in 0.6s
+2020.12.02 09:02:08 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:02:08 INFO  time: compiled particle-simulator in 0.71s
+2020.12.02 09:02:11 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:02:11 INFO  time: compiled particle-simulator in 0.62s
+2020.12.02 09:02:17 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:02:17 INFO  time: compiled particle-simulator in 0.68s
+2020.12.02 09:02:31 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:02:31 INFO  time: compiled particle-simulator in 0.53s
+2020.12.02 09:02:36 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:02:36 INFO  time: compiled particle-simulator in 0.13s
+2020.12.02 09:03:28 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:03:28 INFO  time: compiled particle-simulator in 0.55s
+2020.12.02 09:03:55 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:03:55 INFO  time: compiled particle-simulator in 0.65s
+2020.12.02 09:04:49 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:04:49 INFO  time: compiled particle-simulator in 0.55s
+2020.12.02 09:05:37 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:05:37 INFO  time: compiled particle-simulator in 0.56s
+2020.12.02 09:05:40 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:05:40 INFO  time: compiled particle-simulator in 0.73s
+2020.12.02 09:05:49 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:05:49 INFO  time: compiled particle-simulator in 0.54s
+2020.12.02 09:06:30 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:06:30 INFO  time: compiled particle-simulator in 0.15s
+2020.12.02 09:06:35 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:06:35 INFO  time: compiled particle-simulator in 0.56s
+2020.12.02 09:06:58 INFO  compiling particle-simulator (7 scala sources)
+2020.12.02 09:07:02 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.12.02 09:07:02 WARN  unexpected error processing the file E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb
+java.nio.file.FileSystemException: E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystem.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.readAllBytes(null)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 09:07:02 WARN  unexpected error processing the file E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\Particle.scala.semanticdb
+java.nio.file.FileSystemException: E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\Particle.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.readAllBytes(null)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 09:07:02 INFO  time: compiled particle-simulator in 4.01s
+2020.12.02 09:08:47 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:08:47 INFO  time: compiled particle-simulator in 0.45s
+2020.12.02 09:08:54 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:08:54 INFO  time: compiled particle-simulator in 0.38s
+2020.12.02 09:09:02 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:09:02 INFO  time: compiled particle-simulator in 0.47s
+2020.12.02 09:09:26 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:09:26 INFO  time: compiled particle-simulator in 0.43s
+2020.12.02 09:10:06 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:10:06 INFO  time: compiled particle-simulator in 0.47s
+2020.12.02 09:10:08 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:10:09 INFO  time: compiled particle-simulator in 1.37s
+2020.12.02 09:10:14 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:10:14 INFO  time: compiled particle-simulator in 0.38s
+2020.12.02 09:11:05 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:11:05 INFO  time: compiled particle-simulator in 0.42s
+2020.12.02 09:11:28 INFO  compiling particle-simulator (2 scala sources)
+2020.12.02 09:11:28 INFO  time: compiled particle-simulator in 0.59s
+something's wrong: no file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystem.scala in scala.collection.mutable.ListBuffer[ParticleSim.Particle]RangePosition(file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystem.scala, 456, 464, 484)
+something's wrong: no file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystem.scala in scala.collection.mutable.ListBuffer[ParticleSim.Particle]RangePosition(file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystem.scala, 456, 464, 484)
+2020.12.02 09:11:35 INFO  compiling particle-simulator (2 scala sources)
+2020.12.02 09:11:36 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.12.02 09:11:36 INFO  time: compiled particle-simulator in 1.62s
+2020.12.02 09:11:36 INFO  compiling particle-simulator (2 scala sources)
+2020.12.02 09:11:36 INFO  time: compiled particle-simulator in 0.64s
+Dec 02, 2020 9:12:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2054
+Dec 02, 2020 9:12:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2055
+2020.12.02 09:12:32 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:12:32 INFO  time: compiled particle-simulator in 0.42s
+2020.12.02 09:12:48 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:12:49 INFO  time: compiled particle-simulator in 1.37s
+2020.12.02 09:13:17 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:13:18 INFO  time: compiled particle-simulator in 1.23s
+Dec 02, 2020 9:14:00 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 02, 2020 9:14:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.12.02 09:14:04 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:14:04 INFO  time: compiled particle-simulator in 0.14s
+2020.12.02 09:14:12 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:14:14 INFO  time: compiled particle-simulator in 1.29s
+Dec 02, 2020 9:15:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2401
+Dec 02, 2020 9:15:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2403
+2020.12.02 09:15:47 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:15:47 INFO  time: compiled particle-simulator in 0.14s
+2020.12.02 09:16:10 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:16:10 INFO  time: compiled particle-simulator in 0.45s
+Dec 02, 2020 9:16:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2515
+2020.12.02 09:16:55 INFO  compiling particle-simulator (2 scala sources)
+2020.12.02 09:16:55 INFO  time: compiled particle-simulator in 0.74s
+2020.12.02 09:17:03 INFO  compiling particle-simulator (2 scala sources)
+2020.12.02 09:17:03 INFO  time: compiled particle-simulator in 0.49s
+2020.12.02 09:17:47 INFO  compiling particle-simulator (3 scala sources)
+2020.12.02 09:17:47 INFO  time: compiled particle-simulator in 0.58s
+2020.12.02 09:18:39 INFO  compiling particle-simulator (3 scala sources)
+2020.12.02 09:18:41 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details
+2020.12.02 09:18:41 INFO  time: compiled particle-simulator in 2.08s
+Dec 02, 2020 9:18:42 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.02 09:18:45 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:18:45 INFO  time: compiled particle-simulator in 0.93s
+2020.12.02 09:19:01 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:19:01 INFO  time: compiled particle-simulator in 3ms
+2020.12.02 09:19:19 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:19:19 INFO  time: compiled particle-simulator in 3ms
+Dec 02, 2020 9:19:31 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:32 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:32 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:32 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:33 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:33 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:34 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:34 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:34 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:34 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:42 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:42 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:42 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:43 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:43 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:43 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:44 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:44 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dec 02, 2020 9:19:45 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2020.12.02 09:19:48 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:19:48 INFO  time: compiled particle-simulator in 0.13s
+2020.12.02 09:20:13 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:20:13 INFO  time: compiled particle-simulator in 0.12s
+2020.12.02 09:20:31 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:20:31 INFO  time: compiled particle-simulator in 0.13s
+2020.12.02 09:21:49 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:21:49 INFO  time: compiled particle-simulator in 0.28s
+Dec 02, 2020 9:21:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3229
+2020.12.02 09:22:01 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:01 INFO  time: compiled particle-simulator in 0.28s
+2020.12.02 09:22:36 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:38 INFO  time: compiled particle-simulator in 1.26s
+2020.12.02 09:22:38 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:38 INFO  time: compiled particle-simulator in 0.37s
+2020.12.02 09:22:40 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:42 INFO  time: compiled particle-simulator in 1.56s
+2020.12.02 09:22:42 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:42 INFO  time: compiled particle-simulator in 0.32s
+2020.12.02 09:22:43 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:44 INFO  time: compiled particle-simulator in 1.35s
+2020.12.02 09:22:44 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:22:44 INFO  time: compiled particle-simulator in 0.28s
+2020.12.02 09:23:22 INFO  compiling particle-simulator (2 scala sources)
+2020.12.02 09:23:24 INFO  time: compiled particle-simulator in 1.72s
+2020.12.02 09:23:33 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:23:33 INFO  time: compiled particle-simulator in 0.14s
+2020.12.02 09:23:36 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:23:36 INFO  time: compiled particle-simulator in 0.12s
+2020.12.02 09:23:51 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:23:53 WARN  unexpected error processing the file E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystemRenderer3D.scala.semanticdb
+java.nio.file.FileSystemException: E:\Side Projects\ParticleSim\Particle-Simulator\.bloop\particle-simulator\bloop-bsp-clients-classes\classes-Metals-zo8hFHKhRFyQEPGuE5BgGA==\META-INF\semanticdb\src\main\scala\PSystemRenderer3D.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.readAllBytes(null)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 09:23:53 INFO  time: compiled particle-simulator in 1.44s
+Dec 02, 2020 9:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3443
+2020.12.02 09:27:43 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:27:44 INFO  time: compiled particle-simulator in 1.22s
+2020.12.02 09:27:52 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:27:52 INFO  time: compiled particle-simulator in 0.55s
+2020.12.02 09:28:18 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:28:19 INFO  time: compiled particle-simulator in 1.31s
+2020.12.02 09:28:29 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:28:30 INFO  time: compiled particle-simulator in 1.1s
+2020.12.02 09:31:30 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:31:30 INFO  time: compiled particle-simulator in 0.47s
+Dec 02, 2020 9:34:38 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 02, 2020 9:34:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.12.02 09:35:00 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:35:00 INFO  time: compiled particle-simulator in 0.6s
+2020.12.02 09:35:14 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:35:15 INFO  time: compiled particle-simulator in 1.49s
+2020.12.02 09:35:35 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:35:36 INFO  time: compiled particle-simulator in 1.67s
+2020.12.02 09:35:43 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:35:45 INFO  time: compiled particle-simulator in 1.65s
+2020.12.02 09:35:56 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:35:58 INFO  time: compiled particle-simulator in 1.32s
+2020.12.02 09:36:15 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:36:16 INFO  time: compiled particle-simulator in 1.32s
+2020.12.02 09:38:36 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:38:38 INFO  time: compiled particle-simulator in 1.52s
+2020.12.02 09:38:58 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:38:59 INFO  time: compiled particle-simulator in 1.31s
+2020.12.02 09:41:21 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:41:21 INFO  time: compiled particle-simulator in 0.5s
+2020.12.02 09:42:15 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:42:16 INFO  time: compiled particle-simulator in 1.52s
+2020.12.02 09:42:26 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:42:26 INFO  time: compiled particle-simulator in 0.47s
+2020.12.02 09:44:14 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:44:15 INFO  time: compiled particle-simulator in 1.28s
+2020.12.02 09:45:47 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:45:49 INFO  time: compiled particle-simulator in 1.68s
+Dec 02, 2020 9:46:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4185
+2020.12.02 09:51:33 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:51:34 INFO  time: compiled particle-simulator in 1.38s
+2020.12.02 09:52:10 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:52:11 INFO  time: compiled particle-simulator in 1.13s
+2020.12.02 09:52:25 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:52:26 INFO  time: compiled particle-simulator in 1.46s
+2020.12.02 09:52:37 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:52:38 INFO  time: compiled particle-simulator in 1.44s
+2020.12.02 09:53:53 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:53:54 INFO  time: compiled particle-simulator in 1.44s
+2020.12.02 09:54:10 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:54:10 INFO  time: compiled particle-simulator in 0.9s
+2020.12.02 09:54:18 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:54:18 INFO  time: compiled particle-simulator in 0.47s
+2020.12.02 09:55:27 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:55:27 INFO  time: compiled particle-simulator in 0.5s
+2020.12.02 09:55:37 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:55:37 INFO  time: compiled particle-simulator in 0.56s
+Dec 02, 2020 9:56:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4626
+Dec 02, 2020 9:56:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4628
+2020.12.02 09:56:45 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:56:45 INFO  time: compiled particle-simulator in 0.44s
+2020.12.02 09:57:18 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:57:18 INFO  time: compiled particle-simulator in 0.43s
+2020.12.02 09:58:54 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:58:54 INFO  time: compiled particle-simulator in 0.67s
+2020.12.02 09:58:56 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 09:58:56 INFO  time: compiled particle-simulator in 0.45s
+2020.12.02 10:02:38 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:02:38 INFO  time: compiled particle-simulator in 96ms
+Dec 02, 2020 10:03:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4844
+Dec 02, 2020 10:03:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4843
+2020.12.02 10:03:18 INFO  compiling particle-simulator (1 scala source)
+Dec 02, 2020 10:03:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4851
+2020.12.02 10:03:18 INFO  time: compiled particle-simulator in 0.42s
+2020.12.02 10:03:25 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:03:27 INFO  time: compiled particle-simulator in 1.59s
+2020.12.02 10:03:28 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:03:29 INFO  time: compiled particle-simulator in 1.44s
+Dec 02, 2020 10:03:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4920
+2020.12.02 10:03:47 INFO  compiling particle-simulator (1 scala source)
+Dec 02, 2020 10:03:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4923
+2020.12.02 10:03:48 INFO  time: compiled particle-simulator in 1.04s
+2020.12.02 10:03:50 INFO  time: code lens generation in 1.14s
+Dec 02, 2020 10:03:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4929
+Dec 02, 2020 10:03:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4972
+2020.12.02 10:03:57 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:03:57 INFO  time: compiled particle-simulator in 8ms
+2020.12.02 10:04:00 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:04:01 INFO  time: compiled particle-simulator in 1.3s
+Dec 02, 2020 10:04:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5018
+Dec 02, 2020 10:04:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5017
+Dec 02, 2020 10:04:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5024
+2020.12.02 10:04:21 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:04:23 INFO  time: compiled particle-simulator in 1.74s
+2020.12.02 10:04:36 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:04:37 INFO  time: compiled particle-simulator in 1.19s
+Dec 02, 2020 10:05:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5090
+2020.12.02 10:06:13 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:06:14 INFO  time: compiled particle-simulator in 1.18s
+2020.12.02 10:12:21 INFO  time: code lens generation in 1.6s
+2020.12.02 10:12:28 INFO  time: code lens generation in 2.71s
+Dec 02, 2020 10:12:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5188
+2020.12.02 10:12:30 INFO  time: code lens generation in 1.97s
+Exception in thread "pool-1-thread-176" java.lang.OutOfMemoryError: Java heap space
+2020.12.02 10:13:40 INFO  time: code lens generation in 3.45s
+Dec 02, 2020 10:13:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5200
+Dec 02, 2020 10:13:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1322,
+      "uri": "file:///e%3A/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PSystemRenderer3D.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "//This class should not do ANY physcics calculations. All of the particles that are being rendered should be made prior to creating the scene, along with a \r\n//choice to show axis or not (X, Y, or Z). The renderer should also take in key inputs that do the following:\r\n//s -\u003e start the simulation, aka, start the animation timer within the stage\r\n//p -\u003e pause the simulation, aka, pause the animation timer\r\n//r -\u003e restart the simulation, aka, call restart on the PSystem that the renderer is rendering\r\n//mouse inputs -\u003e should be able to rotate the camera allowing for different viewing angles\r\n//arrow key inputs (maybe) -\u003e move the camera around on 3 dimensions, would require many weird calculations since camera can be rotated\r\npackage ParticleSim\r\n\r\nimport scalafx.Includes._\r\nimport scalafx.animation.Timeline\r\nimport scalafx.application.JFXApp\r\nimport scalafx.scene._\r\nimport scalafx.scene.input.{KeyCode, KeyEvent, MouseEvent}\r\nimport scalafx.scene.paint.{Color, PhongMaterial}\r\nimport scalafx.scene.shape.{Box, Cylinder, Sphere}\r\nimport scalafx.scene.transform.Rotate\r\nimport scala.collection.mutable\r\nimport PUtil._\r\nimport scalafx.animation.AnimationTimer\r\n\r\n\r\nobject PSystemRenderer3D extends JFXApp {app \u003d\u003e\r\n    //System.setProperty(\"prism.dirtyopts\", \"false\")\r\n\r\n    private final val root \u003d new Group()\r\n    private final val axisGroup \u003d new Group()\r\n    private final val world \u003d new Xform()\r\n    private final val camera: PerspectiveCamera \u003d new PerspectiveCamera(true)\r\n    private final val cameraXform \u003d new Xform()\r\n    private final val cameraXform2 \u003d new Xform()\r\n    private final val cameraXform3 \u003d new Xform()\r\n    private final val cameraDistance: Double \u003d 450\r\n    private final val particleGroup \u003d new Xform()\r\n    p[]\r\n\r\n    val maxTime \u003d 60 \r\n    val maxIts \u003d 100\r\n\r\n    val particlePool \u003d loadParticlesFromFile(\"particles.xml\")\r\n    val systemPool \u003d mutable.ListBuffer[PSystem]() //need to add \r\n\r\n\r\n    val rSystem \u003d new PGravSystem(\"TestSystem1\")\r\n    rSystem.addParts(particlePool)\r\n\r\n    // buildScene()\r\n    buildCamera()\r\n    // buildAxes()\r\n    // updateSystem()\r\n\r\n    particleGroup.children ++\u003d particlePool.map(p \u003d\u003e p.pSphere)\r\n\r\n    root.children +\u003d particleGroup\r\n\r\n    stage \u003d new JFXApp.PrimaryStage {\r\n        scene \u003d new Scene(root, 1024, 768, depthBuffer \u003d true, antiAliasing \u003d SceneAntialiasing.Balanced) {\r\n            fill \u003d Color.Gray\r\n            title \u003d \"Particle Simulator for System: \"+rSystem.name\r\n            camera \u003d app.camera\r\n\r\n            var lastTime \u003d 0L\r\n            val simTimer\u003d AnimationTimer(t \u003d\u003e {\r\n                if(lastTime \u003e 0)\r\n                {\r\n                    rSystem.update((t - lastTime)/1e9)\r\n                    particleGroup.children\r\n                }\r\n            })            \r\n        }\r\n    }\r\n\r\n    def updateSystem(dT: Double): Unit \u003d rSystem.update(dT)\r\n\r\n    def buildCamera(): Unit \u003d {\r\n        root.children +\u003d cameraXform\r\n        cameraXform.children +\u003d camera\r\n        camera.nearClip \u003d 0.1\r\n        camera.farClip \u003d 10000.0\r\n        camera.translateZ \u003d -cameraDistance\r\n    }\r\n}"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+
+Exception in thread "pool-5-thread-1" java.lang.OutOfMemoryError: Java heap space
+2020.12.02 10:14:17 INFO  Started: Metals version 0.9.7 in workspace 'E:\Side Projects\ParticleSim\Particle-Simulator' for client vscode.
+2020.12.02 10:14:17 INFO  time: initialize in 0.5s
+2020.12.02 10:14:17 INFO  Attempting to connect to the build server...
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Particle.scala
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PGravSystem.scala
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystemRenderer3D.scala
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PSystem.scala
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\PUtil.scala
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\src\main\scala\Vect.scala
+2020.12.02 10:14:18 WARN  no build target for: E:\Side Projects\ParticleSim\Particle-Simulator\build.sbt
+2020.12.02 10:14:17 INFO  skipping build import with status 'Requested'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44633'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44633...
+The server is listening for incoming connections at tcp://127.0.0.1:44633...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.12.02 10:14:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.12.02 10:14:18 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24567'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24567...
+The server is listening for incoming connections at tcp://127.0.0.1:24567...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.12.02 10:14:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Jonluca\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.12.02 10:14:19 INFO  time: connected to build server in 1.14s
+2020.12.02 10:14:19 INFO  Connected to Build server v1.4.5-2-eb51d668
+2020.12.02 10:14:20 INFO  no build target: using presentation compiler with only scala-library
+2020.12.02 10:14:20 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.12.02 10:14:20 ERROR unexpected error during source scanning
+java.nio.file.FileSystemNotFoundException: E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalafx\scalafx_2.13\12.0.2-R18\scalafx_2.13-12.0.2-R18-sources.jar
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:34)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$addSourceJarSymbols$1(MetalsLanguageServer.scala:2221)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJarTopLevels$1(OnDemandSymbolIndex.scala:101)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJarTopLevels(OnDemandSymbolIndex.scala:100)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2220)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5(MetalsLanguageServer.scala:2188)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5$adapted(MetalsLanguageServer.scala:2179)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2179)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2178)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2178)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2124)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2124)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 10:14:20 ERROR unexpected error during source scanning
+java.nio.file.FileSystemNotFoundException: E:\Side Projects\ParticleSim\Particle-Simulator\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.0.0-M2\scala-xml_2.13-2.0.0-M2-sources.jar
+	at com.sun.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:120)
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:117)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at java.nio.file.FileSystems.newFileSystem(null)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:34)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$addSourceJarSymbols$1(MetalsLanguageServer.scala:2221)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJarTopLevels$1(OnDemandSymbolIndex.scala:101)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJarTopLevels(OnDemandSymbolIndex.scala:100)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2220)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5(MetalsLanguageServer.scala:2188)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$5$adapted(MetalsLanguageServer.scala:2179)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2179)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2178)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2178)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2124)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2124)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2018)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2020.12.02 10:14:20 INFO  time: indexed workspace in 1.81s
+2020.12.02 10:14:21 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:14:23 INFO  time: compiled particle-simulator in 2.01s
+Dec 02, 2020 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2020.12.02 10:18:35 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:18:35 INFO  time: compiled particle-simulator in 0.48s
+2020.12.02 10:18:43 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:18:43 INFO  time: compiled particle-simulator in 0.47s
+2020.12.02 10:18:47 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:18:47 INFO  time: compiled particle-simulator in 0.56s
+2020.12.02 10:18:55 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:18:55 INFO  time: compiled particle-simulator in 0.48s
+2020.12.02 10:19:01 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:19:01 INFO  time: compiled particle-simulator in 0.48s
+2020.12.02 10:19:15 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:19:15 INFO  time: compiled particle-simulator in 0.56s
+2020.12.02 10:19:25 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:19:25 INFO  time: compiled particle-simulator in 0.56s
+2020.12.02 10:19:36 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:19:38 INFO  time: compiled particle-simulator in 1.38s
+2020.12.02 10:20:04 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:20:06 INFO  time: compiled particle-simulator in 1.47s
+2020.12.02 10:20:12 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:20:13 INFO  time: compiled particle-simulator in 1.33s
+2020.12.02 10:20:56 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:20:56 INFO  time: compiled particle-simulator in 0.51s
+2020.12.02 10:21:07 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:21:09 INFO  time: compiled particle-simulator in 1.43s
+2020.12.02 10:21:24 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:21:25 INFO  time: compiled particle-simulator in 1.33s
+2020.12.02 10:22:49 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:22:50 INFO  time: compiled particle-simulator in 1.32s
+2020.12.02 10:23:38 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:23:39 INFO  time: compiled particle-simulator in 1.34s
+2020.12.02 10:24:07 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:24:08 INFO  time: compiled particle-simulator in 1.25s
+something's wrong: no file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PGravSystem.scala in scala.collection.mutable.ListBuffer[ParticleSim.Vect]RangePosition(file:///E:/Side%20Projects/ParticleSim/Particle-Simulator/src/main/scala/PGravSystem.scala, 737, 745, 761)
+2020.12.02 10:28:44 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:28:44 INFO  time: compiled particle-simulator in 0.28s
+2020.12.02 10:28:49 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:28:50 INFO  time: compiled particle-simulator in 1.38s
+2020.12.02 10:29:03 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:29:03 INFO  time: compiled particle-simulator in 0.25s
+2020.12.02 10:29:06 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:29:07 INFO  time: compiled particle-simulator in 1.41s
+2020.12.02 10:30:48 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:30:48 INFO  time: compiled particle-simulator in 0.78s
+2020.12.02 10:31:55 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:31:56 INFO  time: compiled particle-simulator in 1.36s
+2020.12.02 10:34:44 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:34:44 INFO  time: compiled particle-simulator in 0.47s
+2020.12.02 10:34:48 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:34:50 INFO  time: compiled particle-simulator in 1.4s
+2020.12.02 10:35:19 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:35:20 INFO  time: compiled particle-simulator in 1.38s
+2020.12.02 10:35:30 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:35:32 INFO  time: compiled particle-simulator in 1.71s
+2020.12.02 10:36:31 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:36:33 INFO  time: compiled particle-simulator in 1.4s
+2020.12.02 10:37:47 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:37:49 INFO  time: compiled particle-simulator in 1.44s
+2020.12.02 10:38:04 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:38:05 INFO  time: compiled particle-simulator in 1.28s
+2020.12.02 10:38:26 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:38:28 INFO  time: compiled particle-simulator in 1.53s
+2020.12.02 10:41:04 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:41:06 INFO  time: compiled particle-simulator in 1.44s
+2020.12.02 10:41:27 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:41:28 INFO  time: compiled particle-simulator in 1.53s
+2020.12.02 10:41:49 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:41:50 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:41:50 INFO  time: compiled particle-simulator in 1.35s
+2020.12.02 10:42:11 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:42:12 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:42:12 INFO  time: compiled particle-simulator in 1.33s
+2020.12.02 10:42:56 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:42:58 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:42:58 INFO  time: compiled particle-simulator in 1.64s
+2020.12.02 10:42:59 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:43:00 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:43:00 INFO  time: compiled particle-simulator in 1.28s
+2020.12.02 10:43:19 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:43:20 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:43:20 INFO  time: compiled particle-simulator in 1.28s
+2020.12.02 10:43:56 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:43:58 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:43:58 INFO  time: compiled particle-simulator in 1.7s
+2020.12.02 10:44:24 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:44:26 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:44:26 INFO  time: compiled particle-simulator in 1.67s
+2020.12.02 10:44:27 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:44:29 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:44:29 INFO  time: compiled particle-simulator in 1.51s
+2020.12.02 10:44:53 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:44:53 INFO  time: compiled particle-simulator in 0.71s
+2020.12.02 10:45:02 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:45:03 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:45:03 INFO  time: compiled particle-simulator in 1.43s
+2020.12.02 10:45:37 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:45:39 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:45:39 INFO  time: compiled particle-simulator in 1.52s
+2020.12.02 10:46:51 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:46:52 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:46:52 INFO  time: compiled particle-simulator in 1.53s
+2020.12.02 10:47:56 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:47:57 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:47:57 INFO  time: compiled particle-simulator in 1.7s
+2020.12.02 10:50:35 INFO  compiling particle-simulator (1 scala source)
+2020.12.02 10:50:36 WARN  there was one deprecation warning (since 1.0.0-R9); re-run with -deprecation for details
+2020.12.02 10:50:36 INFO  time: compiled particle-simulator in 1.46s
+Dec 02, 2020 10:52:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
